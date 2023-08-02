@@ -1,0 +1,53 @@
+{
+	"name" : "New Adventure map spells",
+	"description" : "Mod adds 24 new adventure spells. Mod can be used also as tutorial how to create your own spell!",
+	"author" : "Noone",
+	"contact" : "https://discord.gg/femaQDmS",
+	"version" : "0.1",
+	"modType" : "Spells",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"compatibility" :
+	{
+		"min" : "1.3.0"
+	},	
+	"changelog" :
+	{
+		"0.1"   : [ "Initial release" ]
+	},
+	
+	"spells" :
+	[
+		"config/MapSpells/Wings of Angel.json",
+		"config/MapSpells/PenetratingStrike.json",
+		"config/MapSpells/HoldGround.json",
+		"config/MapSpells/Demons Rising.json",
+		"config/MapSpells/Charm Talks.json",
+		"config/MapSpells/Empathy.json",
+		"config/MapSpells/Dwarven Luck.json",
+		"config/MapSpells/Herald Of Death.json",
+		"config/MapSpells/Darkness.json",
+		"config/MapSpells/Dead Luck.json",
+		"config/MapSpells/Demonic Power.json",
+		"config/MapSpells/Borrowed Power.json",
+		"config/MapSpells/Mind Cleanse.json",
+		"config/MapSpells/Nirvana.json",
+		"config/MapSpells/Gryphon Eye.json",
+		"config/MapSpells/Army Haste.json",
+		"config/MapSpells/ArmyPrayer.json",
+		"config/MapSpells/WhirlpoolProtection.json",
+		"config/MapSpells/PowerOfStone.json",
+		//"config/MapSpells/TestSpell.json"
+		"config/MapSpells/Free Ship Boarding.json",
+		"config/MapSpells/Fair Wind.json",
+		"config/MapSpells/Death Call.json",
+		"config/MapSpells/Resistance Aura.json",
+		"config/MapSpells/TotalEclipse.json"
+	],
+	
+	"artifacts":[
+	],
+	
+	"objects":[
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"nirvana":
+	{
+		"type" : "adventure", 
+		"name" : "Nirvana",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level" : 1,
+		"power" : 2,
+"counters": {"spell.nirvana":true },			
+		"defaultGainChance" : 4, 
+		"gainChance":
+		{
+			"castle" : 5
+		},
+ 
+		//counterstrike animation?
+	
+ 
+		"flags" : {"indifferent": true,"positive":true},
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/Nirvana/back0.bmp",
+			"iconScroll" : "!Map-spells/Nirvana/back1.bmp",
+			"iconScenarioBonus" : "!Map-spells/Nirvana/back2.bmp",
+			"iconEffect" : "!Map-spells/Nirvana/back3.bmp"
+		},
+		"sounds":
+		{
+			//OPTIONAL; resourse path, casting sound
+			"cast" : "mm6/56meditation03"
+		},
+		
+		"targetType" : "NO_TARGET",
+ 
+		"levels":
+		{
+			"none":
+			{
+				"description" : "Gives army a mind immunity until end of turn.",
+	 
+				"cost" : 4,
+				"power" : 10,
+				"aiValue" : 2,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "MIND_IMMUNITY",
+
+						"duration" : "ONE_DAY",
+//						"propagator" : "HERO"
+					}
+				}
+			},
+			"basic":
+			{
+					"description" : "Gives army a mind immunity until end of turn.",
+	 
+				"cost" : 4,
+				"power" : 10,
+				"aiValue" : 2,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "MOVEMENT", "subtype" : 1, 
+						"val" : 100,
+						"duration" : "ONE_DAY",
+	//					"propagator" : "HERO"
+					}
+				}
+			},
+			"advanced":
+			{
+			"description" : "Gives army a mind immunity until end of turn.",
+	 
+				"cost" : 3,
+				"power" : 2,
+				"aiValue" : 2,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "MOVEMENT", "subtype" : 1, 
+						"val" : 200,
+						"duration" : "ONE_DAY",
+		//				"propagator" : "HERO"
+					}
+				}
+			},
+			"expert":
+			{
+			"description" : "Gives army a mind immunity until end of turn.",
+	 
+				"cost" : 3,
+				"power" : 2,
+				"aiValue" : 2,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "MOVEMENT", "subtype" : 1, 
+						"val" : 300,
+						"duration" : "ONE_DAY",
+		//				"propagator" : "HERO"
+					}
+				}
+			}
+		}
+	}
+ 
+}

@@ -1,0 +1,142 @@
+{
+	
+	
+	"gryphonEye":
+	{
+		"type" : "adventure", 
+		"name" : "Gryphon Eye",
+		"school":
+		{
+			"air": true,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level" : 2,
+		"power" : 10,
+"counters": {"spell.gryphonEye":true },		
+		"defaultGainChance" : 4, 
+		"gainChance":
+		{
+			"castle" : 2
+		},
+ 
+		//counterstrike animation?
+	
+ 
+		"flags" : {"indifferent": true,"positive":true},
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/Gryphon Eye/back0.bmp",
+			"iconScroll" : "!Map-spells/Gryphon Eye/back1.bmp",
+			"iconScenarioBonus" : "!Map-spells/Gryphon Eye/back2.bmp",
+			"iconEffect" : "!Map-spells/Gryphon Eye/back3.bmp"
+		},
+		"sounds":
+		{
+			//OPTIONAL; resourse path, casting sound
+			"cast" : "mm6/59precision03"
+		},
+		
+		"targetType" : "NO_TARGET",
+ 
+		"levels":
+		{
+			"none":
+			{
+				"description" : "Gives army +1 sight radius until end of turn.",
+	 
+				"cost" : 5,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SIGHT_RADIUS",
+						"val" : 1,
+						"duration" : "ONE_DAY",
+//						"propagator" : "HERO",
+//						"valueType" : "INDEPENDENT_MAX"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "Gives army +1 sight radius until end of turn.",
+	 
+				"cost" : 4,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SIGHT_RADIUS",
+						"val" : 1,
+						"duration" : "ONE_DAY",
+	//					"propagator" : "HERO",
+	//						"valueType" : "INDEPENDENT_MAX"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "Gives army +2 sight radius until end of turn.",
+	 
+				"cost" : 6,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SIGHT_RADIUS",
+						"val" : 2,
+						"duration" : "ONE_DAY",
+		//				"propagator" : "HERO",
+		//						"valueType" : "INDEPENDENT_MAX"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "Gives army +3 sight radius until end of turn.",
+	 
+				"cost" : 7,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SIGHT_RADIUS",
+						"val" : 3,
+						"duration" : "ONE_DAY",
+		//				"propagator" : "HERO",
+		//						"valueType" : "INDEPENDENT_MAX"
+					}
+				}
+			}
+		}
+	}
+ 
+}

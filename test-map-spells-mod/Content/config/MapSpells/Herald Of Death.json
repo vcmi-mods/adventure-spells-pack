@@ -1,0 +1,159 @@
+{
+	"heraldOfDeath":
+	{
+		"type" : "adventure", 
+		"name" : "Herald Of Death",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level" : 3,
+		"power" : 10,
+"counters": {"spell.heraldOfDeath":true },				
+		"defaultGainChance" : 2, 
+		"gainChance":
+		{
+			"necropolis" : 4
+		},
+ 
+		//counterstrike animation?
+
+
+ 
+		"flags" : {"indifferent": true,"positive":true},
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/Herald Of Death/back0.bmp",
+			"iconScroll" : "!Map-spells/Herald Of Death/back1.bmp",
+			"iconScenarioBonus" : "!Map-spells/Herald Of Death/back2.bmp",
+			"iconEffect" : "!Map-spells/Herald Of Death/back3.bmp"
+		},
+		"sounds":
+		{
+			//OPTIONAL; resourse path, casting sound
+			"cast" : "mm6/82destroyundead01"
+		},
+		
+		"targetType" : "NO_TARGET",
+ 
+		"levels":
+		{
+			"none":
+			{
+				"description" : "Blocks morale on battlefields until end of turn.",
+	 
+				"cost" : 10,
+				"power" : 10,
+				"aiValue" : 6,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+ "ability1A" : {
+					"type" : "MORALE",
+				"val" : 0,
+				"valueType" : "INDEPENDENT_MAX" ,
+//						"propagator" : "HERO"
+					},
+ "ability2A" : {
+					"type" : "MORALE",
+				"val" : 0,
+				"valueType" : "INDEPENDENT_MIN" ,
+//						"propagator" : "HERO"
+					}
+ 
+				}
+			},
+			"basic":
+			{
+				"description" : "Blocks morale on battlefields until end of turn.",
+	 
+				"cost" : 7,
+				"power" : 9,
+				"aiValue" : 6,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+ "ability1A" : {
+					"type" : "MORALE",
+				"val" : 0,
+				"valueType" : "INDEPENDENT_MAX" ,
+//						"propagator" : "HERO"
+					},
+ "ability2A" : {
+					"type" : "MORALE",
+				"val" : 0,
+				"valueType" : "INDEPENDENT_MIN" ,
+//						"propagator" : "HERO"
+					}
+
+				}
+			},
+			"advanced":
+			{
+				"description" : "Blocks morale on battlefields until end of turn.",
+	 
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 6,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+ "ability1A" : {
+					"type" : "MORALE",
+				"val" : 0,
+				"valueType" : "INDEPENDENT_MAX" ,
+//						"propagator" : "HERO"
+					},
+ "ability2A" : {
+					"type" : "MORALE",
+				"val" : 0,
+				"valueType" : "INDEPENDENT_MIN" ,
+//						"propagator" : "HERO"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "Blocks morale on battlefields until end of turn.",
+	 
+				"cost" : 7,
+				"power" : 10,
+				"aiValue" : 6,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+ "ability1A" : {
+					"type" : "MORALE",
+				"val" : 0,
+				"valueType" : "INDEPENDENT_MAX" ,
+//						"propagator" : "HERO"
+					},
+ "ability2A" : {
+					"type" : "MORALE",
+				"val" : 0,
+				"valueType" : "INDEPENDENT_MIN" ,
+//						"propagator" : "HERO"
+					}
+				}
+			}
+		}
+	}
+ 
+}

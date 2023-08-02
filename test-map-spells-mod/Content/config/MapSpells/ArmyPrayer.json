@@ -1,0 +1,145 @@
+{
+	"armyPrayer":
+	{
+		"type" : "adventure", 
+		"name" : "Army Prayer",
+		"school":
+		{
+			"air": true,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level" : 2,
+		"power" : 10,
+ 	
+		"defaultGainChance" : 3, 
+		"gainChance":
+		{
+			"castle" : 4
+		},
+ 
+		//counterstrike animation?
+	"counters": {"spell.armyPrayer":true},
+
+ 
+		"flags" : {"indifferent": true},
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/ArmyPrayer/back0.bmp",
+			"iconScroll" : "!Map-spells/ArmyPrayer/back1.bmp",
+			"iconScenarioBonus" : "!Map-spells/ArmyPrayer/back2.bmp",
+			"iconEffect" : "!Map-spells/ArmyPrayer/back3.bmp"
+		},
+		"sounds":
+		{
+			//OPTIONAL; resourse path, casting sound
+			"cast" : "mm6/57removefear03"
+		},
+		
+		"targetType" : "NO_TARGET",
+ 
+		"levels":
+		{
+			"none":
+			{
+				"description" : "Gives army +1 morale until end of turn.",
+	 
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "MORALE",
+						"val" : 1,
+						"duration" : "ONE_DAY",
+						//"propagator" : "HERO",
+					//	"source" : "ARTIFACT"
+
+					} 
+				}
+			},
+			"basic":
+			{
+				"description" : "Gives army +1 morale until end of turn.",
+	 
+				"cost" : 7,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "MORALE",
+						"val" : 1,
+						"duration" : "ONE_DAY",
+						//"stacking":false
+	//					"propagator" : "HERO"
+
+					}
+
+				}
+			},
+			"advanced":
+			{
+				"description" : "Gives army +1 morale until end of turn.",
+	 
+				"cost" : 6,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "MORALE",
+						"val" : 1,
+						"duration" : "ONE_DAY",
+						//"stacking":false
+		//				"propagator" : "HERO"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "Gives army +1 morale until end of turn.",
+	 
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "MORALE",
+						"val" : 2,
+						"duration" : "ONE_DAY",
+						//"stacking":false
+		//				"propagator" : "HERO"
+	
+					}
+				}
+			}
+		}
+	}
+ 
+}

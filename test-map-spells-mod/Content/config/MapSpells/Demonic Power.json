@@ -1,0 +1,145 @@
+{
+	"demonicPower":
+	{
+		"type" : "adventure", 
+		"name" : "Demonic Power",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level" : 3,
+		"power" : 5,
+"counters": {"spell.demonicPower":true },			
+		"defaultGainChance" : 3, 
+		"gainChance":
+		{
+			"inferno" : 4
+		},
+ 
+		//counterstrike animation?
+	
+ 
+		"flags" : {"indifferent": true,"positive":true},
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/Demonic Power/back0.bmp",
+			"iconScroll" : "!Map-spells/Demonic Power/back1.bmp",
+			"iconScenarioBonus" : "!Map-spells/Demonic Power/back2.bmp",
+			"iconEffect" : "!Map-spells/Demonic Power/back3.bmp"
+		},
+		"sounds":
+		{
+			//OPTIONAL; resourse path, casting sound
+			"cast" : "mm6/75power03"
+		},
+		
+		"targetType" : "NO_TARGET",
+ 
+		"levels":
+		{
+			"none":
+			{
+				"description" : "Gives army +5% damage to end of turn.",
+	 
+				"cost" : 14,
+				"power" : 10,
+				"aiValue" : 9,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"val" : 4,
+						"valueType" : "PERCENT_TO_BASE",
+						"duration" : "ONE_DAY",
+						//"propagator" : "HERO"
+
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "Gives army +5% damage to end of turn.",
+	 
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"val" : 5,
+						"valueType" : "PERCENT_TO_BASE",
+						"duration" : "ONE_DAY",
+							//"propagator" : "HERO"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "Gives army +7% damage to end of turn.",
+	 
+				"cost" : 16,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"val" : 5,
+						"valueType" : "PERCENT_TO_BASE",
+						"duration" : "ONE_DAY",
+					//"propagator" : "HERO"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "Gives army +10% damage to end of turn.",
+	 
+				"cost" : 14,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : 0,
+						"val" : 10,
+						"valueType" : "PERCENT_TO_BASE",
+						"duration" : "ONE_DAY",
+					//"propagator" : "HERO"
+					}
+				}
+			}
+		}
+	}
+ 
+}

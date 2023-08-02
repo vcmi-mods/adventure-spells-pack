@@ -1,0 +1,141 @@
+{
+	"charmingTalks":
+	{
+		"type" : "adventure", 
+		"name" : "Charming Talks",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"level" : 3,
+		"power" : 10,
+"counters": {"spell.charmingTalks":true },			
+		"defaultGainChance" : 4, 
+		"gainChance":
+		{
+			"tower" : 2
+		},
+ 
+		//counterstrike animation?
+
+
+ 
+		"flags" : {"indifferent": true,"positive":true},
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/Charm Talks/back0.bmp",
+			"iconScroll" : "!Map-spells/Charm Talks/back1.bmp",
+			"iconScenarioBonus" : "!Map-spells/Charm Talks/back2.bmp",
+			"iconEffect" : "!Map-spells/Charm Talks/back3.bmp"
+		},
+		"sounds":
+		{
+			//OPTIONAL; resourse path, casting sound
+			"cast" : "mm8/heal"
+		},
+		
+		"targetType" : "NO_TARGET",
+ 
+		"levels":
+		{
+			"none":
+			{
+				"description" : "Gives an art to convict enemies to lower surrender cost to 10% until end of day.",
+	 
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 6,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SURRENDER_DISCOUNT",
+						"val" : 10,
+						"duration" : "ONE_DAY",
+//						"propagator" : "HERO"
+
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "Gives an art to convict enemies to lower surrender cost to 15% until end of day.",
+	 
+				"cost" : 13,
+				"power" : 9,
+				"aiValue" : 7,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SURRENDER_DISCOUNT",
+						"val" : 15,
+						"duration" : "ONE_DAY",
+	//					"propagator" : "HERO"
+
+					}
+
+				}
+			},
+			"advanced":
+			{
+				"description" : "Gives an art to convict enemies to lower surrender cost to 20% until end of day.",
+	 
+				"cost" : 14,
+				"power" : 10,
+				"aiValue" : 8,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SURRENDER_DISCOUNT",
+						"val" : 20,
+						"duration" : "ONE_WEEK",
+		//				"propagator" : "HERO"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "Gives an art to convict enemies to lower surrender cost to 25% until end of day.",
+	 
+				"cost" : 15,
+				"power" : 10,
+				"aiValue" : 8,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SURRENDER_DISCOUNT",
+						"val" : 25,
+						"duration" : "ONE_WEEK",
+		//				"propagator" : "HERO"
+	
+					}
+				}
+			}
+		}
+	}
+ 
+}

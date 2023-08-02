@@ -1,0 +1,141 @@
+{
+	"powerOfStone":
+	{
+		"type" : "adventure", 
+		"name" : "Power Of Stone",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level" : 3,
+		"power" : 10,
+"counters": {"spell.powerOfStone":true },		
+		"defaultGainChance" : 2, 
+		"gainChance":
+		{
+			"castle" : 3
+		},
+ 
+		//counterstrike animation?
+	
+ 
+		"flags" : {"indifferent": true,"positive":true},
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/PowerOfStone/back0.bmp",
+			"iconScroll" : "!Map-spells/PowerOfStone/back1.bmp",
+			"iconScenarioBonus" : "!Map-spells/PowerOfStone/back2.bmp",
+			"iconEffect" : "!Map-spells/PowerOfStone/back3.bmp"
+		},
+		"sounds":
+		{
+			//OPTIONAL; resourse path, casting sound
+			"cast" : "MapSpells/Metal_Hit_Flesh1"
+		},
+		
+		"targetType" : "NO_TARGET",
+ 
+		"levels":
+		{
+			"none":
+			{
+				"description" : "Gives hero's army general attack reduction +5% until end of turn.",
+	 
+				"cost" : 16,
+				"power" : 10,
+				"aiValue" : 13,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : 5,
+						"subtype":-1,
+						"duration" : "ONE_DAY",
+//						"propagator" : "HERO"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "Gives hero's army general attack reduction +7% until end of turn.",
+	 
+				"cost" : 16,
+				"power" : 10,
+				"aiValue" : 13,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : 7,
+								"subtype":-1,
+						"duration" : "ONE_DAY",
+//						"propagator" : "HERO"
+					}
+				}
+			},
+				"advanced":
+			{
+				"description" : "Gives hero's army general attack reduction +10% until end of turn.",
+	 
+				"cost" : 16,
+				"power" : 10,
+				"aiValue" : 13,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : 10,
+								"subtype":-1,
+						"duration" : "ONE_DAY",
+//						"propagator" : "HERO"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "Gives hero's army general attack reduction +14% until end of turn.",
+	 
+				"cost" : 18,
+				"power" : 10,
+				"aiValue" : 13,
+				"range" : "X",
+	
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : 14,		
+						"subtype":-1,
+						"duration" : "ONE_DAY",
+//						"propagator" : "HERO"
+					}
+				}
+			}
+
+		}
+	}
+ 
+}
