@@ -18,13 +18,7 @@
 		{
 			"castle" : 5
 		},
- 
-		//counterstrike animation?
-	
- 
 		"flags" : {"indifferent": true,"positive":true},
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconBook" : "!Map-spells/Nirvana/back0.bmp",
@@ -34,7 +28,6 @@
 		},
 		"sounds":
 		{
-			//OPTIONAL; resourse path, casting sound
 			"cast" : "mm6/56meditation03"
 		},
 		
@@ -58,9 +51,7 @@
 					"attacks":
 					{
 						"type" : "MIND_IMMUNITY",
-
-						"duration" : "ONE_DAY",
-//						"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -79,10 +70,9 @@
 				{
 					"attacks":
 					{
-						"type" : "MOVEMENT", "subtype" : 1, 
+						"type" : "MOVEMENT", "subtype" : "heroMovementLand", 
 						"val" : 100,
-						"duration" : "ONE_DAY",
-	//					"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -101,10 +91,9 @@
 				{
 					"attacks":
 					{
-						"type" : "MOVEMENT", "subtype" : 1, 
+						"type" : "MOVEMENT", "subtype" : "heroMovementLand", 
 						"val" : 200,
-						"duration" : "ONE_DAY",
-		//				"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -123,10 +112,9 @@
 				{
 					"attacks":
 					{
-						"type" : "MOVEMENT", "subtype" : 1, 
+						"type" : "MOVEMENT", "subtype" : "heroMovementLand", 
 						"val" : 300,
-						"duration" : "ONE_DAY",
-		//				"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			}

@@ -18,20 +18,14 @@
 		{
 			"castle" : 4
 		},
- 
-		//counterstrike animation?
-	
- 
+
 		"flags" : {"indifferent": true,"positive":true},
- //"absoluteLimit":{"SHOOTER":true},
  
  "targetCondition" : {
 	"allOf" : {
 		"bonus.SHOOTER" : "absolute"
 	}
 },
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconBook" : "!Map-spells/FairWind/back0.bmp",
@@ -41,7 +35,6 @@
 		},
 		"sounds":
 		{
-			//OPTIONAL; resourse path, casting sound
 			"cast" : "Magic/Storm"
 		},
 		
@@ -65,10 +58,9 @@
 					"attacks":
 					{
 						"type" : "PERCENTAGE_DAMAGE_BOOST",
-						"subtype" :  1, "valueType" : "ADDITIVE_VALUE" ,
+						"subtype" :  "damageTypeRanged", "valueType" : "ADDITIVE_VALUE" ,
 						"val" : 10,
-						"duration" : "ONE_DAY",
-//						"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -88,10 +80,9 @@
 					"attacks":
 					{
 						"type" : "PERCENTAGE_DAMAGE_BOOST",
-						"subtype" :  1, "valueType" : "ADDITIVE_VALUE" ,
+						"subtype" :  "damageTypeRanged", "valueType" : "ADDITIVE_VALUE" ,
 						"val" : 15,
-						"duration" : "ONE_DAY",
-//						"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -111,10 +102,9 @@
 					"attacks":
 					{
 						"type" : "PERCENTAGE_DAMAGE_BOOST",
-						"subtype" :  1, "valueType" : "ADDITIVE_VALUE" ,
+						"subtype" :  "damageTypeRanged", "valueType" : "ADDITIVE_VALUE" ,
 						"val" : 20,
-						"duration" : "ONE_DAY",
-//						"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -134,10 +124,9 @@
 					"attacks":
 					{
 						"type" : "PERCENTAGE_DAMAGE_BOOST",
-						"subtype" :  1, "valueType" : "ADDITIVE_VALUE" ,
+						"subtype" :  "damageTypeRanged", "valueType" : "ADDITIVE_VALUE" ,
 						"val" : 25,
-						"duration" : "ONE_DAY",
-//						"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			}

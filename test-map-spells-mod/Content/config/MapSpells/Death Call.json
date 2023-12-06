@@ -12,19 +12,15 @@
 		},
 		"level" : 3,
 		"power" : 0,
-"counters": {"spell.deathCall":true },		
+		"counters": {"spell.deathCall":true },		
 		"defaultGainChance" : 4, 
 		"gainChance":
 		{
 			"necropolis" : 5
 		},
- 
-		//counterstrike animation?
-	
- 
+
 		"flags" : {"indifferent": true,"positive":true},
 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconBook" : "!Map-spells/Death Call/back0.bmp",
@@ -34,7 +30,6 @@
 		},
 		"sounds":
 		{
-			//OPTIONAL; resourse path, casting sound
 			"cast" : "Magic/DeathRipple"
 		},
 		
@@ -58,7 +53,6 @@
 					"attacks":
 					{
 						"type" : "UNDEAD_RAISE_PERCENTAGE",
-						"subtype" :  -1 ,
 						"val" : 10,
 						"valueType" : "ADDITIVE_VALUE",
 						"duration" : "ONE_DAY",
@@ -82,7 +76,6 @@
 					"attacks":
 					{
 						"type" : "UNDEAD_RAISE_PERCENTAGE",
-						"subtype" :  -1 ,
 						"val" : 15,
 						"valueType" : "ADDITIVE_VALUE",
 						"duration" : "ONE_DAY",
@@ -106,7 +99,6 @@
 					"attacks":
 					{
 						"type" : "UNDEAD_RAISE_PERCENTAGE",
-						"subtype" :  -1 ,
 						"val" : 17,
 						"valueType" : "ADDITIVE_VALUE",
 						"duration" : "ONE_DAY",
@@ -129,7 +121,6 @@
 					"attacks":
 					{
 						"type" : "UNDEAD_RAISE_PERCENTAGE",
-						"subtype" :  -1 ,
 						"val" : 20,
 						"valueType" : "ADDITIVE_VALUE",
 						"duration" : "ONE_DAY",

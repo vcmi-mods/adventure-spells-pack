@@ -19,12 +19,7 @@
 			"castle" : 5
 		},
  
-		//counterstrike animation?
-	
- 
 		"flags" : {"indifferent": true,"positive":true},
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconBook" : "!Map-spells/FlyingBoots/back0.bmp",
@@ -34,7 +29,6 @@
 		},
 		"sounds":
 		{
-			//OPTIONAL; resourse path, casting sound
 			"cast" : "mm6/73speed03"
 		},
 		
@@ -57,10 +51,9 @@
 				{
 					"attacks":
 					{
-						"type" : "MOVEMENT", "subtype" : 1,
+						"type" : "MOVEMENT", "subtype" : "heroMovementLand",
 						"val" : 100,
-						"duration" : "ONE_DAY",
-//						"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -79,10 +72,9 @@
 				{
 					"attacks":
 					{
-						"type" : "MOVEMENT", "subtype" : 1,
+						"type" : "MOVEMENT", "subtype" : "heroMovementLand",
 						"val" : 100,
-						"duration" : "ONE_DAY",
-	//					"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -101,10 +93,9 @@
 				{
 					"attacks":
 					{
-						"type" : "MOVEMENT", "subtype" : 1,
+						"type" : "MOVEMENT", "subtype" : "heroMovementLand",
 						"val" : 200,
-						"duration" : "ONE_DAY",
-		//				"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -123,10 +114,9 @@
 				{
 					"attacks":
 					{
-						"type" : "MOVEMENT", "subtype" : 1,
+						"type" : "MOVEMENT", "subtype" : "heroMovementLand",
 						"val" : 300,
-						"duration" : "ONE_DAY",
-		//				"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			}

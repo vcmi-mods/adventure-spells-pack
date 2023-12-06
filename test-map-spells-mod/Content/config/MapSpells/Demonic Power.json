@@ -18,13 +18,9 @@
 		{
 			"inferno" : 4
 		},
- 
-		//counterstrike animation?
-	
- 
+
 		"flags" : {"indifferent": true,"positive":true},
- 
-		//graphics - OPTIONAL; object;
+
 		"graphics":
 		{
 			"iconBook" : "!Map-spells/Demonic Power/back0.bmp",
@@ -34,7 +30,6 @@
 		},
 		"sounds":
 		{
-			//OPTIONAL; resourse path, casting sound
 			"cast" : "mm6/75power03"
 		},
 		
@@ -58,12 +53,10 @@
 					"attacks":
 					{
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"val" : 4,
 						"valueType" : "PERCENT_TO_BASE",
-						"duration" : "ONE_DAY",
-						//"propagator" : "HERO"
-
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -83,11 +76,10 @@
 					"attacks":
 					{
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"val" : 5,
 						"valueType" : "PERCENT_TO_BASE",
-						"duration" : "ONE_DAY",
-							//"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -107,11 +99,10 @@
 					"attacks":
 					{
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"val" : 5,
 						"valueType" : "PERCENT_TO_BASE",
-						"duration" : "ONE_DAY",
-					//"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -131,15 +122,13 @@
 					"attacks":
 					{
 						"type" : "CREATURE_DAMAGE",
-						"subtype" : 0,
+						"subtype" : "creatureDamageBoth",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_BASE",
-						"duration" : "ONE_DAY",
-					//"propagator" : "HERO"
+						"duration" : "ONE_DAY"
 					}
 				}
 			}
 		}
 	}
- 
 }
