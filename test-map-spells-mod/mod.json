@@ -16,6 +16,13 @@
 		"0.1"   : [ "Initial release" ],
 		"0.2"   : [ "Update to vcmi-1.4 format" ]
 	},
+	"chinese" : {
+		"name" : "新冒险地图魔法",
+		"description" : "这个模组添加了24种冒险地图魔法。该模组也可以作为一个教程：如何创建属于你自己的魔法。",
+		"translations" : [
+			"translation/new adventure map spells/chinese.json"
+		]
+	},
 	
 	"spells" :
 	[
