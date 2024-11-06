@@ -3,7 +3,7 @@
 	"description" : "Mod adds 24 new adventure spells. Mod can be used also as tutorial how to create your own spell!",
 	"author" : "Noone",
 	"contact" : "https://discord.gg/femaQDmS",
-	"version" : "0.2",
+	"version" : "0.3",
 	"modType" : "Spells",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,13 +14,21 @@
 	"changelog" :
 	{
 		"0.1"   : [ "Initial release" ],
-		"0.2"   : [ "Update to vcmi-1.4 format" ]
+		"0.2"   : [ "Update to vcmi-1.4 format" ],
+		"0.3"   : [ "Czech translation by George King", "Fixed Chinese translation path" ]
 	},
 	"chinese" : {
 		"name" : "新冒险地图魔法",
 		"description" : "这个模组添加了24种冒险地图魔法。该模组也可以作为一个教程：如何创建属于你自己的魔法。",
 		"translations" : [
 			"translation/new adventure map spells/chinese.json"
+		]
+	},
+	"czech" : {
+		"name" : "Nová kouzla pro mapu dobrodružství",
+		"description" : "Tato modifikace přidává 24 kouzel pro dobrodružnou mapu. Modifikaci lze využít jako návod, jak si vytvořit vlastní kouzlo!",
+		"translations" : [
+			"translation/new adventure map spells/czech.json"
 		]
 	},
 	
