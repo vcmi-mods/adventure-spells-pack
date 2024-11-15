@@ -3,7 +3,7 @@
 	"description" : "Mod adds 24 new adventure spells. Mod can be used also as tutorial how to create your own spell!",
 	"author" : "Noone",
 	"contact" : "https://discord.gg/femaQDmS",
-	"version" : "0.3",
+	"version" : "0.4",
 	"modType" : "Spells",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -15,7 +15,8 @@
 	{
 		"0.1"   : [ "Initial release" ],
 		"0.2"   : [ "Update to vcmi-1.4 format" ],
-		"0.3"   : [ "Czech translation by George King", "Fixed Chinese translation path" ]
+		"0.3"   : [ "Czech translation by George King", "Fixed Chinese translation path" ],
+		"0.4"   : [ "Polish translation by FallainBlack" ]
 	},
 	"chinese" : {
 		"name" : "新冒险地图魔法",
@@ -31,6 +32,13 @@
 			"translation/new adventure map spells/czech.json"
 		]
 	},
+	"polish" : {
+		"name" : "Nowe zaklęcia dla mapy przygody",
+		"description" : "Mod zawiera 24 nowe zaklęcia dla mapy przygody. Mod może być użyty jako ściągawka jak tworzyć własne zaklęcia!",
+		"translations" : [
+			"translation/new adventure map spells/czech.json"
+		]
+	},	
 	
 	"spells" :
 	[
