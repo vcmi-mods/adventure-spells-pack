@@ -35,7 +35,7 @@
 		{
 			"none":
 			{
-				"description" : "All creatures receive +5% Damage until the end of the day.",
+				"description" : "Creatures receive +5% Damage until the end of the day.",
 				"cost" : 18,
 				"power" : 10,
 				"aiValue" : 10,
@@ -55,7 +55,7 @@
 			},
 			"basic":
 			{
-				"description" : "All creatures receive +5% Damage until the end of the day.",
+				"description" : "Creatures receive +5% Damage until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
 				"aiValue" : 10,
@@ -75,7 +75,7 @@
 			},
 			"advanced":
 			{
-				"description" : "All creatures receive +10% Damage until the end of the day.",
+				"description" : "Creatures receive +10% Damage until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
 				"aiValue" : 10,
@@ -95,7 +95,7 @@
 			},
 			"expert":
 			{
-				"description" : "All creatures receive +15% Damage until the end of the day.",
+				"description" : "Creatures receive +15% Damage until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
 				"aiValue" : 10,

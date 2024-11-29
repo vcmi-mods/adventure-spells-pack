@@ -35,7 +35,7 @@
 		{
 			"none":
 			{
-				"description" : "Gain +5% magical resistance until the end of the day.",
+				"description" : "Creatures receive +5% magical resistance until the end of the day.",
 				"cost" : 16,
 				"power" : 10,
 				"aiValue" : 10,
@@ -54,7 +54,7 @@
 			},
 			"basic":
 			{
-				"description" : "Gain +5% magical resistance until the end of the day.",
+				"description" : "Creatures receive +5% magical resistance until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
 				"aiValue" : 10,
@@ -73,7 +73,7 @@
 			},
 			"advanced":
 			{
-				"description" : "Gain +10% magical resistance until the end of the day.",
+				"description" : "Creatures receive +10% magical resistance until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
 				"aiValue" : 10,
@@ -92,7 +92,7 @@
 			},
 			"expert":
 			{
-				"description" : "Gain +15% magical resistance until the end of the day.",
+				"description" : "Creatures receive +15% magical resistance until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
 				"aiValue" : 10,
