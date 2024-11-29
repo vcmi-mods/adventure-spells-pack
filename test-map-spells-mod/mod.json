@@ -1,9 +1,9 @@
 {
-	"name" : "New Adventure map spells",
-	"description" : "Mod adds 24 new adventure spells. Mod can be used also as tutorial how to create your own spell!",
-	"author" : "Noone",
+	"name" : "New Adventure Map Spells",
+	"description" : "Adds 24 new adventure spells based on art from Heroes V.",
+	"author" : "Heroes III Modding Community, Aphra",
 	"contact" : "https://discord.gg/femaQDmS",
-	"version" : "0.4",
+	"version" : "1.0",
 	"modType" : "Spells",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -16,61 +16,55 @@
 		"0.1"   : [ "Initial release" ],
 		"0.2"   : [ "Update to vcmi-1.4 format" ],
 		"0.3"   : [ "Czech translation by George King", "Fixed Chinese translation path" ],
-		"0.4"   : [ "Polish translation by FallainBlack" ]
+		"0.4"   : [ "Polish translation by FallainBlack" ],
+		"1.0"   : [ "Spell balance and redesign by Aphra" ]
 	},
 	"chinese" : {
 		"name" : "新冒险地图魔法",
-		"description" : "这个模组添加了24种冒险地图魔法。该模组也可以作为一个教程：如何创建属于你自己的魔法。",
+		"description" : "这个模组添加了24种冒险地图魔法。",
 		"translations" : [
 			"translation/new adventure map spells/chinese.json"
 		]
 	},
 	"czech" : {
 		"name" : "Nová kouzla pro mapu dobrodružství",
-		"description" : "Tato modifikace přidává 24 kouzel pro dobrodružnou mapu. Modifikaci lze využít jako návod, jak si vytvořit vlastní kouzlo!",
+		"description" : "Tato modifikace přidává 24 kouzel pro dobrodružnou mapu.",
 		"translations" : [
 			"translation/new adventure map spells/czech.json"
 		]
 	},
 	"polish" : {
 		"name" : "Nowe zaklęcia dla mapy przygody",
-		"description" : "Mod zawiera 24 nowe zaklęcia dla mapy przygody. Mod może być użyty jako ściągawka jak tworzyć własne zaklęcia!",
+		"description" : "Mod zawiera 24 nowe zaklęcia dla mapy przygody.",
 		"translations" : [
 			"translation/new adventure map spells/polish.json"
 		]
-	},	
-	
+	},
 	"spells" :
 	[
-		"config/MapSpells/Wings of Angel.json",
-		"config/MapSpells/PenetratingStrike.json",
-		"config/MapSpells/HoldGround.json",
-		"config/MapSpells/Demons Rising.json",
-		"config/MapSpells/Charm Talks.json",
-		"config/MapSpells/Empathy.json",
-		"config/MapSpells/Dwarven Luck.json",
-		"config/MapSpells/Herald Of Death.json",
+		"config/MapSpells/Accuracy.json",
+		"config/MapSpells/ArcaneProtection.json",
+		"config/MapSpells/Benediction.json",
+		"config/MapSpells/ChannelPower.json",
+		"config/MapSpells/Clarity.json",
 		"config/MapSpells/Darkness.json",
-		"config/MapSpells/Dead Luck.json",
-		"config/MapSpells/Demonic Power.json",
-		"config/MapSpells/Borrowed Power.json",
-		"config/MapSpells/Mind Cleanse.json",
-		"config/MapSpells/Nirvana.json",
-		"config/MapSpells/Gryphon Eye.json",
-		"config/MapSpells/Army Haste.json",
-		"config/MapSpells/ArmyPrayer.json",
-		"config/MapSpells/WhirlpoolProtection.json",
+		"config/MapSpells/DeadLuck.json",
+		"config/MapSpells/DeathCall.json",
+		"config/MapSpells/DemonicPower.json",
+		"config/MapSpells/DivineSpirit.json",
+		"config/MapSpells/DwarvenLuck.json",
+		"config/MapSpells/Empathy.json",
+		"config/MapSpells/FleetFoot.json",
+		"config/MapSpells/GriffinEye.json",
+		"config/MapSpells/HeraldOfDeath.json",
+		"config/MapSpells/HoldGround.json",
+		"config/MapSpells/MagicCushion.json",
+		"config/MapSpells/Negotiations.json",
+		"config/MapSpells/PowerOfHaste.json",
 		"config/MapSpells/PowerOfStone.json",
-		"config/MapSpells/Free Ship Boarding.json",
-		"config/MapSpells/Fair Wind.json",
-		"config/MapSpells/Death Call.json",
-		"config/MapSpells/Resistance Aura.json",
-		"config/MapSpells/TotalEclipse.json"
-	],
-	
-	"artifacts":[
-	],
-	
-	"objects":[
+		"config/MapSpells/RaiseDemons.json",
+		"config/MapSpells/Seafaring.json",
+		"config/MapSpells/ShatteringStrike.json",
+		"config/MapSpells/WhirlpoolProtection.json"
 	]
 }

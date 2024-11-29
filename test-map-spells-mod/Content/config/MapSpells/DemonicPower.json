@@ -1,0 +1,118 @@
+{
+	"demonicPower":
+	{
+		"type" : "adventure", 
+		"name" : "Demonic Power",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level" : 3,
+		"power" : 5,
+		"counters": {"spell.demonicPower":true },			
+		"defaultGainChance" : 3, 
+		"gainChance":
+		{
+			"inferno" : 4
+		},
+		"flags" : {"indifferent": true,"positive":true},
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/DemonicPower/spellBook",
+			"iconScroll" : "!Map-spells/DemonicPower/spellScroll",
+			"iconScenarioBonus" : "!Map-spells/DemonicPower/spellBonus",
+			"iconEffect" : "!Map-spells/DemonicPower/spellEffect"
+		},
+		"sounds":
+		{
+			"cast" : "mm6/75power03"
+		},
+		"targetType" : "NO_TARGET",
+		"levels":
+		{
+			"none":
+			{
+				"description" : "Creatures receive +5% Damage until the end of the day.",
+				"cost" : 18,
+				"power" : 10,
+				"aiValue" : 10,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : "creatureDamageBoth",
+						"val" : 5,
+						"valueType" : "PERCENT_TO_BASE",
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "Creatures receive +5% Damage until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 10,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : "creatureDamageBoth",
+						"val" : 5,
+						"valueType" : "PERCENT_TO_BASE",
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "Creatures receive +10% Damage until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 10,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : "creatureDamageBoth",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_BASE",
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "Creatures receive +15% Damage until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 10,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : "creatureDamageBoth",
+						"val" : 15,
+						"valueType" : "PERCENT_TO_BASE",
+						"duration" : "ONE_DAY"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,112 @@
+{
+	"negotiations":
+	{
+		"type" : "adventure", 
+		"name" : "Negotiations",
+		"school":
+		{
+			"air": true,
+			"earth": true,
+			"fire": true,
+			"water": true
+		},
+		"level" : 3,
+		"power" : 10,
+		"counters": {"spell.negotiations":true },			
+		"defaultGainChance" : 4, 
+		"gainChance":
+		{
+			"tower" : 2
+		},
+		"flags" : {"indifferent": true,"positive":true},
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/Negotiations/spellBook",
+			"iconScroll" : "!Map-spells/Negotiations/spellScroll",
+			"iconScenarioBonus" : "!Map-spells/Negotiations/spellBonus",
+			"iconEffect" : "!Map-spells/Negotiations/spellEffect"
+		},
+		"sounds":
+		{
+			"cast" : "mm8/heal"
+		},
+		"targetType" : "NO_TARGET",
+		"levels":
+		{
+			"none":
+			{
+				"description" : "Reduces the cost of surrendering by -10% until the end of the day.",
+				"cost" : 10,
+				"power" : 10,
+				"aiValue" : 6,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SURRENDER_DISCOUNT",
+						"val" : 10,
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "Reduces the cost of surrendering by -10% until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 8,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SURRENDER_DISCOUNT",
+						"val" : 10,
+						"duration" : "ONE_DAY"
+					}
+
+				}
+			},
+			"advanced":
+			{
+				"description" : "Reduces the cost of surrendering by -20% until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 8,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SURRENDER_DISCOUNT",
+						"val" : 20,
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "Reduces the cost of surrendering by -30% until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 8,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SURRENDER_DISCOUNT",
+						"val" : 30,
+						"duration" : "ONE_DAY"	
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,6 +1,4 @@
 {
-	
-	
 	"darkness":
 	{
 		"type" : "adventure", 
@@ -14,47 +12,53 @@
 		},
 		"level" : 3,
 		"power" : 10,
-"counters": {"spell.darkness":true },				
+		"counters": {"spell.darkness":true },				
 		"defaultGainChance" : 4, 
 		"gainChance":
 		{
 			"necropolis" : 3
 		},
- 
-		//counterstrike animation?
-	
- 
 		"flags" : {"indifferent": true,"positive":true},
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
-			"iconBook" : "!Map-spells/Darkness/back0.bmp",
-			"iconScroll" : "!Map-spells/Darkness/back1.bmp",
-			"iconScenarioBonus" : "!Map-spells/Darkness/back2.bmp",
-			"iconEffect" : "!Map-spells/Darkness/back3.bmp"
+			"iconBook" : "!Map-spells/Darkness/spellBook",
+			"iconScroll" : "!Map-spells/Darkness/spellScroll",
+			"iconScenarioBonus" : "!Map-spells/Darkness/spellBonus",
+			"iconEffect" : "!Map-spells/Darkness/spellEffect"
 		},
 		"sounds":
 		{
-			//OPTIONAL; resourse path, casting sound
 			"cast" : "mm6/53raisedead03"
 		},
-		
 		"targetType" : "NO_TARGET",
- 
 		"levels":
 		{
 			"none":
 			{
-				"description" : "Hero emits dark clouds covering his movement until end of turn.",
-	 
-				"cost" : 12,
+				"description" : "Creates a 1 tile radius of shroud for non-allied players with hero movement until the end of the day.",
+				"cost" : 25,
 				"power" : 10,
-				"aiValue" : 12,
+				"aiValue" : 15,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "DARKNESS",
+						"val" : 1,
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "Creates a 1 tile radius of shroud for non-allied players with hero movement until the end of the day.",
+				"cost" : 20,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
 				"effects":
 				{
 					"attacks":
@@ -62,101 +66,45 @@
 						"type" : "DARKNESS",
 						"val" : 1,
 						"duration" : "ONE_DAY",
-//						"propagator" : "HERO"
-					},
-//					"morale":
-//					{
-//					"type" : "MORALE",
-//					"val" : 1,
-//					"duration" : "ONE_DAY"
-//					}
+					}
 				}
 			},
-			"basic":
+			"advanced":
 			{
-				"description" : "Hero emits dark clouds covering his movement until end of turn.",
-	 
-				"cost" : 14,
+				"description" : "Creates a 2 tile radius of shroud for non-allied players with hero movement until the end of the day.",
+				"cost" : 20,
 				"power" : 10,
-				"aiValue" : 12,
+				"aiValue" : 15,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
 					{
 						"type" : "DARKNESS",
 						"val" : 2,
-						"duration" : "ONE_DAY",
-	//					"propagator" : "HERO"
-					},
-//					"morale":
-//					{
-//					"type" : "MORALE",
-//					"val" : 1,
-//					"duration" : "ONE_DAY"
-//					}
+						"duration" : "ONE_DAY"
+					}
 				}
 			},
-			"advanced":
+			"expert":
 			{
-				"description" : "Hero emits dark clouds covering his movement until end of turn.",
-	 
-				"cost" : 16,
+				"description" : "Creates a 3 tile radius of shroud for non-allied players with hero movement until the end of the day.",
+				"cost" : 20,
 				"power" : 10,
-				"aiValue" : 5,
+				"aiValue" : 15,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
 					{
 						"type" : "DARKNESS",
 						"val" : 3,
-						"duration" : "ONE_DAY",
-		//				"propagator" : "HERO"
-					},
-//					"morale":
-//					{
-//					"type" : "MORALE",
-//					"val" : 1,
-//					"duration" : "ONE_DAY"
-//					}
-				}
-			},
-			"expert":
-			{
-				"description" : "Hero emits dark clouds covering his movement until end of turn.",
-	 
-				"cost" : 16,
-				"power" : 10,
-				"aiValue" : 5,
-				"range" : "X",
-	
-				"targetModifier":{"smart":false},
-	 
-				"effects":
-				{
-					"attacks":
-					{
-						"type" : "DARKNESS",
-						"val" : 4,
-						"duration" : "ONE_DAY",
-		//				"propagator" : "HERO"
-					},
-//					"morale":
-//					{
-//					"type" : "MORALE",
-//					"val" : 1,
-//					"duration" : "ONE_DAY"
-//					}
+						"duration" : "ONE_DAY"
+					}
 				}
 			}
 		}
 	}
- 
 }

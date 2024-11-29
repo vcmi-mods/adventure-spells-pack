@@ -12,126 +12,100 @@
 		},
 		"level" : 3,
 		"power" : 10,
-"counters": {"spell.holdGround":true },			
+		"counters": {"spell.holdGround":true },			
 		"defaultGainChance" : 2, 
 		"gainChance":
 		{
-			"castle" : 3
+			"castle" : 4,
+			"rampart" : 4
 		},
- 
-		//counterstrike animation?
-	
- 
 		"flags" : {"indifferent": true,"positive":true},
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
-			"iconBook" : "!Map-spells/HoldGround/back0.bmp",
-			"iconScroll" : "!Map-spells/HoldGround/back1.bmp",
-			"iconScenarioBonus" : "!Map-spells/HoldGround/back2.bmp",
-			"iconEffect" : "!Map-spells/HoldGround/back3.bmp"
+			"iconBook" : "!Map-spells/HoldGround/spellBook",
+			"iconScroll" : "!Map-spells/HoldGround/spellScroll",
+			"iconScenarioBonus" : "!Map-spells/HoldGround/spellBonus",
+			"iconEffect" : "!Map-spells/HoldGround/spellEffect"
 		},
 		"sounds":
 		{
-			//OPTIONAL; resourse path, casting sound
 			"cast" : "mm6/94dayofprotection03"
 		},
-		
 		"targetType" : "NO_TARGET",
- 
 		"levels":
 		{
 			"none":
 			{
-				"description" : "Gives hero's army defensive stance +5% until end of turn.",
-	 
-				"cost" : 14,
+				"description" : "Creatures receive +3 Defense when defending in combat until the end of the day.",
+				"cost" : 18,
 				"power" : 10,
-				"aiValue" : 13,
+				"aiValue" : 10,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
 					{
 						"type" : "DEFENSIVE_STANCE",
-						"val" : 5,
-						"duration" : "ONE_DAY",
-//						"propagator" : "HERO"
+						"val" : 3,
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
 			"basic":
 			{
-				"description" : "Gives hero's army defensive stance +7% until end of turn.",
-	 
-				"cost" : 14,
+				"description" : "Creatures receive +3 Defense when defending in combat until the end of the day.",
+				"cost" : 12,
 				"power" : 10,
-				"aiValue" : 13,
+				"aiValue" : 10,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
 					{
 						"type" : "DEFENSIVE_STANCE",
-						"val" : 5,
-						"duration" : "ONE_DAY",
-//						"propagator" : "HERO"
+						"val" : 3,
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
-
-				"advanced":
+			"advanced":
 			{
-				"description" : "Gives hero's army defensive stance +10% until end of turn.",
-	 
-				"cost" : 16,
+				"description" : "Creatures receive +6 Defense when defending in combat until the end of the day.",
+				"cost" : 12,
 				"power" : 10,
-				"aiValue" : 13,
+				"aiValue" : 10,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
 					{
 						"type" : "DEFENSIVE_STANCE",
-						"val" : 10,
-						"duration" : "ONE_DAY",
-//						"propagator" : "HERO"
+						"val" : 6,
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
 			"expert":
 			{
-				"description" : "Gives hero's army defensive stance +15% until end of turn.",
-	 
-				"cost" : 18,
+				"description" : "Creatures receive +9 Defense when defending in combat until the end of the day.",
+				"cost" : 12,
 				"power" : 10,
-				"aiValue" : 13,
+				"aiValue" : 10,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
 					{
 						"type" : "DEFENSIVE_STANCE",
-						"val" : 15,
-						"duration" : "ONE_DAY",
-//						"propagator" : "HERO"
+						"val" : 9,
+						"duration" : "ONE_DAY"
 					}
 				}
 			}
-
 		}
 	}
  

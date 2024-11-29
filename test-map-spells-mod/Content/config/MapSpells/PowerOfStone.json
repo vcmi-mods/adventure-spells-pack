@@ -16,43 +16,38 @@
 		"defaultGainChance" : 2, 
 		"gainChance":
 		{
-			"castle" : 3
+			"castle" : 4,
+			"fortress" : 5
 		},
 		"flags" : {"indifferent": true,"positive":true},
-
 		"graphics":
 		{
-			"iconBook" : "!Map-spells/PowerOfStone/back0.bmp",
-			"iconScroll" : "!Map-spells/PowerOfStone/back1.bmp",
-			"iconScenarioBonus" : "!Map-spells/PowerOfStone/back2.bmp",
-			"iconEffect" : "!Map-spells/PowerOfStone/back3.bmp"
+			"iconBook" : "!Map-spells/PowerOfStone/spellBook",
+			"iconScroll" : "!Map-spells/PowerOfStone/spellScroll",
+			"iconScenarioBonus" : "!Map-spells/PowerOfStone/spellBonus",
+			"iconEffect" : "!Map-spells/PowerOfStone/spellEffect"
 		},
 		"sounds":
 		{
 			"cast" : "MapSpells/Metal_Hit_Flesh1"
-		},
-		
+		},	
 		"targetType" : "NO_TARGET",
- 
 		"levels":
 		{
 			"none":
 			{
-				"description" : "Gives hero's army general attack reduction +5% until end of turn.",
-	 
-				"cost" : 16,
+				"description" : "Creatures ignore 5% of enemy Attack until the end of the day.",
+				"cost" : 20,
 				"power" : 10,
-				"aiValue" : 13,
+				"aiValue" : 15,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
 					{
 						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 5,
+						"val" : 5,		
 						"subtype": "damageTypeAll",
 						"duration" : "ONE_DAY"
 					}
@@ -60,21 +55,18 @@
 			},
 			"basic":
 			{
-				"description" : "Gives hero's army general attack reduction +7% until end of turn.",
-	 
-				"cost" : 16,
+				"description" : "Creatures ignore 5% of enemy Attack until the end of the day.",
+				"cost" : 15,
 				"power" : 10,
-				"aiValue" : 13,
+				"aiValue" : 15,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
 					{
 						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 7,
+						"val" : 5,		
 						"subtype": "damageTypeAll",
 						"duration" : "ONE_DAY"
 					}
@@ -82,21 +74,18 @@
 			},
 			"advanced":
 			{
-				"description" : "Gives hero's army general attack reduction +10% until end of turn.",
-	 
-				"cost" : 16,
+				"description" : "Creatures ignore 10% of enemy Attack until the end of the day.",
+				"cost" : 15,
 				"power" : 10,
-				"aiValue" : 13,
+				"aiValue" : 15,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
 					{
 						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 10,
+						"val" : 10,		
 						"subtype": "damageTypeAll",
 						"duration" : "ONE_DAY"
 					}
@@ -104,27 +93,23 @@
 			},
 			"expert":
 			{
-				"description" : "Gives hero's army general attack reduction +14% until end of turn.",
-	 
-				"cost" : 18,
+				"description" : "Creatures ignore 15% of enemy Attack until the end of the day.",
+				"cost" : 15,
 				"power" : 10,
-				"aiValue" : 13,
+				"aiValue" : 15,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
 					{
 						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 14,		
+						"val" : 15,		
 						"subtype": "damageTypeAll",
 						"duration" : "ONE_DAY"
 					}
 				}
 			}
-
 		}
 	}
 }
