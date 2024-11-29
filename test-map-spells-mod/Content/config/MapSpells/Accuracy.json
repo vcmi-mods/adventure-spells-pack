@@ -1,0 +1,124 @@
+{
+	"accuracy":
+	{
+		"type" : "adventure", 
+		"name" : "Accuracy",
+		"school":
+		{
+			"air": true,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level" : 2,
+		"power" : 0,
+		"counters": {"spell.accuracy":true },			
+		"defaultGainChance" : 3, 
+		"gainChance":
+		{
+			"castle" : 4
+		},
+		"flags" : {"indifferent": true,"positive":true},
+		"targetCondition" : {
+			"allOf" : {
+				"bonus.SHOOTER" : "absolute"
+			}
+		},
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/Accuracy/spellBook",
+			"iconScroll" : "!Map-spells/Accuracy/spellScroll",
+			"iconScenarioBonus" : "!Map-spells/Accuracy/spellBonus",
+			"iconEffect" : "!Map-spells/Accuracy/spellEffect"
+		},
+		"sounds":
+		{
+			"cast" : "Magic/Storm"
+		},
+		"targetType" : "NO_TARGET",
+		"levels":
+		{
+			"none":
+			{
+				"description" : "All creatures receive +5% Damage when attacking at range until the end of the day.",
+				"cost" : 18,
+				"power" : 10,
+				"aiValue" : 10,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "PERCENTAGE_DAMAGE_BOOST",
+						"subtype" :  "damageTypeRanged",
+						"val" : 5,
+						"valueType" : "PERCENT_TO_BASE" ,
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "All creatures receive +5% Damage when attacking at range until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 10,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "PERCENTAGE_DAMAGE_BOOST",
+						"subtype" :  "damageTypeRanged",
+						"val" : 5,
+						"valueType" : "PERCENT_TO_BASE" ,
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "All creatures receive +10% Damage when attacking at range until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 10,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "PERCENTAGE_DAMAGE_BOOST",
+						"subtype" :  "damageTypeRanged",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_BASE" ,
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "All creatures receive +15% Damage when attacking at range until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 10,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "PERCENTAGE_DAMAGE_BOOST",
+						"subtype" :  "damageTypeRanged",
+						"val" : 15,
+						"valueType" : "PERCENT_TO_BASE" ,
+						"duration" : "ONE_DAY"
+					}
+				}
+			}
+		}
+	}
+ 
+}

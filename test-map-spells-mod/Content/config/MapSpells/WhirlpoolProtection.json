@@ -1,0 +1,106 @@
+{
+	"whirlpoolProtection":
+	{
+		"type" : "adventure", 
+		"name" : "Whirlpool Protection",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"level" : 3,
+		"power" : 10,
+		"defaultGainChance" : 2, 
+		"gainChance":
+		{
+			"castle" : 3,
+			"conflux" : 3
+		},
+		"flags" : {"indifferent": true,"positive":true},
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/WhirlpoolProtection/spellBook",
+			"iconScroll" : "!Map-spells/WhirlpoolProtection/spellScroll",
+			"iconScenarioBonus" : "!Map-spells/WhirlpoolProtection/spellBonus",
+			"iconEffect" : "!Map-spells/WhirlpoolProtection/spellEffect"
+		},
+		"sounds":
+		{
+			"cast" : "mm8/Lloyds beacon"
+		},
+		"targetType" : "NO_TARGET",
+		"levels":
+		{
+			"none":
+			{
+				"description" : "Protects the army from whirlpools until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "WHIRLPOOL_PROTECTION",
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "Protects the army from whirlpools until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "WHIRLPOOL_PROTECTION",
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "Protects the army from whirlpools until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "WHIRLPOOL_PROTECTION",
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "Protects the army from whirlpools until the end of the week.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "WHIRLPOOL_PROTECTION",
+						"duration" : "ONE_WEEK"
+					}
+				}
+			}
+		}
+	}
+}

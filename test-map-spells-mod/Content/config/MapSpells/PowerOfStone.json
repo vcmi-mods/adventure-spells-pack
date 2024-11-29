@@ -1,0 +1,115 @@
+{
+	"powerOfStone":
+	{
+		"type" : "adventure", 
+		"name" : "Power Of Stone",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level" : 3,
+		"power" : 10,
+		"counters": {"spell.powerOfStone":true },		
+		"defaultGainChance" : 2, 
+		"gainChance":
+		{
+			"castle" : 4,
+			"fortress" : 5
+		},
+		"flags" : {"indifferent": true,"positive":true},
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/PowerOfStone/spellBook",
+			"iconScroll" : "!Map-spells/PowerOfStone/spellScroll",
+			"iconScenarioBonus" : "!Map-spells/PowerOfStone/spellBonus",
+			"iconEffect" : "!Map-spells/PowerOfStone/spellEffect"
+		},
+		"sounds":
+		{
+			"cast" : "MapSpells/Metal_Hit_Flesh1"
+		},	
+		"targetType" : "NO_TARGET",
+		"levels":
+		{
+			"none":
+			{
+				"description" : "Creatures ignore 5% of enemy Attack until the end of the day.",
+				"cost" : 20,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : 5,		
+						"subtype": "damageTypeAll",
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "Creatures ignore 5% of enemy Attack until the end of the day.",
+				"cost" : 15,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : 5,		
+						"subtype": "damageTypeAll",
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "Creatures ignore 10% of enemy Attack until the end of the day.",
+				"cost" : 15,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : 10,		
+						"subtype": "damageTypeAll",
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "Creatures ignore 15% of enemy Attack until the end of the day.",
+				"cost" : 15,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : 15,		
+						"subtype": "damageTypeAll",
+						"duration" : "ONE_DAY"
+					}
+				}
+			}
+		}
+	}
+}

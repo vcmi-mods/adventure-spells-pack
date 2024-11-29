@@ -1,0 +1,115 @@
+{
+	"magicCushion":
+	{
+		"type" : "adventure", 
+		"name" : "Magic Cushion",
+		"school":
+		{
+			"air": true,
+			"earth": true,
+			"fire": true,
+			"water": true
+		},
+		"level" : 3,
+		"power" : 0,
+		"counters": {"spell.magicCushion":true },
+		"defaultGainChance" : 3, 
+		"gainChance":
+		{
+			"rampart" : 5
+		},
+		"flags" : {"indifferent": true,"positive":true},
+		"graphics":
+		{
+			"iconBook" : "!Map-spells/MagicCushion/spellBook",
+			"iconScroll" : "!Map-spells/MagicCushion/spellScroll",
+			"iconScenarioBonus" : "!Map-spells/MagicCushion/spellBonus",
+			"iconEffect" : "!Map-spells/MagicCushion/spellEffect"
+		},
+		"sounds":
+		{
+			"cast" : "Magic/LightCure"
+		},
+		"targetType" : "NO_TARGET",
+		"levels":
+		{
+			"none":
+			{
+				"description" : "Gain +5% magical resistance until the end of the day.",
+				"cost" : 16,
+				"power" : 10,
+				"aiValue" : 10,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "MAGIC_RESISTANCE",
+						"val" : 5,
+						"duration" : "ONE_DAY",
+						"propagator" : "HERO"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "Gain +5% magical resistance until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 10,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "MAGIC_RESISTANCE",
+						"val" : 5,
+						"duration" : "ONE_DAY",
+						"propagator" : "HERO"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "Gain +10% magical resistance until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 10,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "MAGIC_RESISTANCE",
+						"val" : 10,
+						"duration" : "ONE_DAY",
+						"propagator" : "HERO"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "Gain +15% magical resistance until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 10,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "MAGIC_RESISTANCE",
+						"val" : 15,
+						"duration" : "ONE_DAY",
+						"propagator" : "HERO"
+					}
+				}
+			},
+		}
+	}
+ 
+}
