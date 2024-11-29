@@ -2,7 +2,7 @@
 	"powerOfHaste":
 	{
 		"type" : "adventure", 
-		"name" : "Power of Haste",
+		"name" : "Power Of Haste",
 		"school":
 		{
 			"air": true,
