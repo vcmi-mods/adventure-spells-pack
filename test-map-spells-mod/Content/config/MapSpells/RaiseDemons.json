@@ -36,14 +36,12 @@
 			"none":
 			{
 				"description" : "Necromancy raises Demons until the end of the day.",
-	 
 				"cost" : 12,
 				"power" : 10,
 				"aiValue" : 6,
 				"range" : "X",
 	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
@@ -51,22 +49,17 @@
 						"type" : "IMPROVED_NECROMANCY",
 						"subtype" : "creature.demon",
 						"duration" : "ONE_DAY",
-//						"propagator" : "HERO"
-
 					}
 				}
 			},
 			"basic":
 			{
 				"description" : "Necromancy raises Demons until the end of the day.",
-	 
 				"cost" : 8,
 				"power" : 10,
 				"aiValue" : 6,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
@@ -74,46 +67,35 @@
 						"type" : "IMPROVED_NECROMANCY",
 						"subtype" : "creature.demon",
 						"duration" : "ONE_DAY",
-	//					"propagator" : "HERO"
-
 					}
-
 				}
 			},
 			"advanced":
 			{
-				"description" : "Necromancy raises Demons until the end of the week.",
-	 
+				"description" : "Necromancy raises Horned Demons until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
 				"aiValue" : 6,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
 					{
 						"type" : "IMPROVED_NECROMANCY",
-						"subtype" : "creature.demon",
-						"duration" : "ONE_WEEK",
-//						"propagator" : "HERO"
-
+						"subtype" : "creature.hornedDemon",
+						"duration" : "ONE_DAY",
 					}
 				}
 			},
 			"expert":
 			{
 				"description" : "Necromancy raises Horned Demons until the end of the week.",
-	 
 				"cost" : 8,
 				"power" : 10,
 				"aiValue" : 6,
 				"range" : "X",
-	
 				"targetModifier":{"smart":false},
-	 
 				"effects":
 				{
 					"attacks":
@@ -121,12 +103,9 @@
 						"type" : "IMPROVED_NECROMANCY",
 						"subtype" : "creature.hornedDemon",
 						"duration" : "ONE_WEEK",
-		//				"propagator" : "HERO"
-	
 					}
 				}
 			}
 		}
 	}
- 
 }
