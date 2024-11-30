@@ -1,0 +1,110 @@
+{
+	"dwarvenLuck":
+	{
+		"type" : "adventure", 
+		"name" : "Dwarven Luck",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level" : 2,
+		"power" : 10,
+		"counters": {"spell.dwarvenLuck":true },			
+		"defaultGainChance" : 3, 
+		"gainChance":
+		{
+			"rampart" : 4
+		},
+		"flags" : {"indifferent": true,"positive":true},
+		"graphics":
+		{
+			"iconBook" : "Map-spells/DwarvenLuck/spellBook",
+			"iconScroll" : "Map-spells/DwarvenLuck/spellScroll",
+			"iconScenarioBonus" : "Map-spells/DwarvenLuck/spellBonus",
+			"iconEffect" : "Map-spells/DwarvenLuck/spellEffect"
+		},
+		"sounds":
+		{
+			"cast" : "mm6/harp"
+		},
+		"targetType" : "NO_TARGET",
+		"levels":
+		{
+			"none":
+			{
+				"description" : "{Dwarven Luck}\r\n\r\nAll creatures receive +1 Luck until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "LUCK",
+						"val" : 1,
+						"duration" : "ONE_DAY",
+					} 
+				}
+			},
+			"basic":
+			{
+				"description" : "{Basic Dwarven Luck}\r\n\r\nAll creatures receive +1 Luck until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "LUCK",
+						"val" : 1,
+						"duration" : "ONE_DAY",
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "{Advanced Dwarven Luck}\r\n\r\nAll creatures receive +2 Luck until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "LUCK",
+						"val" : 2,
+						"duration" : "ONE_DAY",
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "{Expert Dwarven Luck}\r\n\r\nAll creatures receive +3 Luck until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "LUCK",
+						"val" : 3,
+						"duration" : "ONE_DAY",
+					}
+				}
+			}
+		}
+	}
+}

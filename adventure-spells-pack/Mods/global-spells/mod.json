@@ -1,0 +1,25 @@
+{
+	"name" : "Any Magic Spells",
+	"description" : "Adds 4 new adventure spells for any magic<br/><br/>Arcane Protection<br/>Empathy<br/>Magic Cushion<br/>Negotiations",
+	"author" : "Heroes III Modding Community, Aphra",
+	"contact" : "https://discord.gg/femaQDmS",
+	"version" : "1.0",
+	"modType" : "Spells",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},	
+	"spells" :
+	[
+		"config/MapSpells/ArcaneProtection.json",
+		"config/MapSpells/Empathy.json",
+		"config/MapSpells/MagicCushion.json",
+		"config/MapSpells/Negotiations.json"
+	],
+	"czech" : {
+		"name" : "Kouzla pro všechny magie",
+		"description" : "Tato modifikace přidává 4 kouzla pro všechny typy magie<br/><br/>Ochrana před magií<br/>Empatie<br/>Magická odolnost<br/>Vyjednávání"
+	}
+}

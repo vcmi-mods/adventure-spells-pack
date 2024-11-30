@@ -1,0 +1,111 @@
+{
+	"shatteringStrike":
+	{
+		"type" : "adventure", 
+		"name" : "Shattering Strike",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level" : 3,
+		"power" : 10,
+		"counters": {"spell.shatteringStrike":true },			
+		"defaultGainChance" : 2, 
+		"gainChance":
+		{
+			"inferno" : 4,
+			"stronghold" : 5
+		},
+		"flags" : {"indifferent": true,"positive":true},
+		"graphics":
+		{
+			"iconBook" : "Map-spells/ShatteringStrike/spellBook",
+			"iconScroll" : "Map-spells/ShatteringStrike/spellScroll",
+			"iconScenarioBonus" : "Map-spells/ShatteringStrike/spellBonus",
+			"iconEffect" : "Map-spells/ShatteringStrike/spellEffect"
+		},
+		"sounds":
+		{
+			"cast" : "mm6/39Blades02"
+		},
+		"targetType" : "NO_TARGET",
+ 		"levels":
+		{
+			"none":
+			{
+				"description" : "{Shattering Strike}\r\n\r\nCreatures' attacks ignore 5% of enemy Defense until the end of the day.",
+				"cost" : 20,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "ENEMY_DEFENCE_REDUCTION",
+						"val" : 5,
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "{Basic Shattering Strike}\r\n\r\nCreatures' attacks ignore 5% of enemy Defense until the end of the day.",
+				"cost" : 15,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "ENEMY_DEFENCE_REDUCTION",
+						"val" : 5,
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "{Advanced Shattering Strike}\r\n\r\nCreatures' attacks ignore 10% of enemy Defense until the end of the day.",
+				"cost" : 15,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "ENEMY_DEFENCE_REDUCTION",
+						"val" : 10,
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "{Expert Shattering Strike}\r\n\r\nCreatures' attacks ignore 15% of enemy Defense until the end of the day.",
+				"cost" : 15,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "ENEMY_DEFENCE_REDUCTION",
+						"val" : 15,
+						"duration" : "ONE_DAY"
+					}
+				}
+			}
+		}
+	}
+}

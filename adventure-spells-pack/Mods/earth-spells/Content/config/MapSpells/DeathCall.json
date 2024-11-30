@@ -1,0 +1,119 @@
+{
+	"deathCall":
+	{
+		"type" : "adventure", 
+		"name" : "Death Call",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level" : 3,
+		"power" : 0,
+		"counters": {"spell.deathCall":true },		
+		"defaultGainChance" : 4, 
+		"gainChance":
+		{
+			"necropolis" : 5
+		},
+		"flags" : {"indifferent": true,"positive":true},
+		"graphics":
+		{
+			"iconBook" : "Map-spells/DeathCall/spellBook",
+			"iconScroll" : "Map-spells/DeathCall/spellScroll",
+			"iconScenarioBonus" : "Map-spells/DeathCall/spellBonus",
+			"iconEffect" : "Map-spells/DeathCall/spellEffect"
+		},
+		"sounds":
+		{
+			"cast" : "Magic/DeathRipple"
+		},
+		"targetType" : "NO_TARGET",
+		"levels":
+		{
+			"none":
+			{
+				"description" : "{Dead Call}\r\n\r\nIncreases Necromancy skill by 10% until the end of the day.",
+				"cost" : 8,
+				"power" : 0,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":true},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "UNDEAD_RAISE_PERCENTAGE",
+						"val" : 10,
+						"valueType" : "ADDITIVE_VALUE",
+						"duration" : "ONE_DAY",
+					"propagator" : "HERO"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "{Basic Dead Call}\r\n\r\nIncreases Necromancy skill by 10% until the end of the day.",
+				"cost" : 6,
+				"power" : 0,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":true},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "UNDEAD_RAISE_PERCENTAGE",
+						"val" : 10,
+						"valueType" : "ADDITIVE_VALUE",
+						"duration" : "ONE_DAY",
+						"propagator" : "HERO"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "{Advanced Dead Call}\r\n\r\nIncreases Necromancy skill by 15% until the end of the day.",
+	 
+				"cost" : 6,
+				"power" : 0,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":true},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "UNDEAD_RAISE_PERCENTAGE",
+						"val" : 15,
+						"valueType" : "ADDITIVE_VALUE",
+						"duration" : "ONE_DAY",
+					"propagator" : "HERO"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "{Expert Dead Call}\r\n\r\nIncreases Necromancy skill by 20% until the end of the day.",
+				"cost" : 6,
+				"power" : 0,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":true},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "UNDEAD_RAISE_PERCENTAGE",
+						"val" : 20,
+						"valueType" : "ADDITIVE_VALUE",
+						"duration" : "ONE_DAY",
+					"propagator" : "HERO"
+					}
+				}
+			}
+		}
+	}
+}
