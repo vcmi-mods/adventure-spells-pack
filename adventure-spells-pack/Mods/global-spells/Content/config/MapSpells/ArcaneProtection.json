@@ -1,0 +1,120 @@
+{
+	"arcaneProtection":
+	{
+		"type" : "adventure", 
+		"name" : "Arcane Protection",
+		"school":
+		{
+			"air": true,
+			"earth": true,
+			"fire": true,
+			"water": true
+		},
+		"level" : 3,
+		"power" : 10,
+		"counters": {"spell.arcaneProtection":true },			
+		"defaultGainChance" : 2, 
+		"gainChance":
+		{
+			"tower" : 4,
+			"fortress" : 5
+		},
+		"flags" : {"indifferent": true,"positive":true},
+		"graphics":
+		{
+			"iconBook" : "Map-spells/ArcaneProtection/spellBook",
+			"iconScroll" : "Map-spells/ArcaneProtection/spellScroll",
+			"iconScenarioBonus" : "Map-spells/ArcaneProtection/spellBonus",
+			"iconEffect" : "Map-spells/ArcaneProtection/spellEffect"
+		},
+		"sounds":
+		{
+			"cast" : "mm8/Fate"
+		},
+		"targetType" : "NO_TARGET",
+		"levels":
+		{
+			"none":
+			{
+				"description" : "{Arcane Protection}\r\n\r\nCreatures receive +5% spell damage reduction until the end of the day.",
+				"cost" : 16,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"val" : 5,
+						"duration" : "ONE_DAY",
+						"propagator" : "HERO"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "{Basic Arcane Protection}\r\n\r\nCreatures receive +5% spell damage reduction until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"val" : 5,
+						"duration" : "ONE_DAY",
+						"propagator" : "HERO"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "{Advanced Arcane Protection}\r\n\r\nCreatures receive +10% spell damage reduction until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"val" : 10,
+						"duration" : "ONE_DAY",
+						"propagator" : "HERO"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "{Expert Arcane Protection}\r\n\r\nCreatures receive +15% spell damage reduction until the end of the day.",
+				"cost" : 12,
+				"power" : 10,
+				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"val" : 15,
+						"duration" : "ONE_DAY",
+						"propagator" : "HERO"
+					}
+				}
+			}
+		}
+	}
+ 
+}

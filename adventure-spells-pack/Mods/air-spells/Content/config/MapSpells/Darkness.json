@@ -1,0 +1,110 @@
+{
+	"darkness":
+	{
+		"type" : "adventure", 
+		"name" : "Darkness",
+		"school":
+		{
+			"air": true,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level" : 3,
+		"power" : 10,
+		"counters": {"spell.darkness":true },				
+		"defaultGainChance" : 4, 
+		"gainChance":
+		{
+			"necropolis" : 3
+		},
+		"flags" : {"indifferent": true,"positive":true},
+		"graphics":
+		{
+			"iconBook" : "Map-spells/Darkness/spellBook",
+			"iconScroll" : "Map-spells/Darkness/spellScroll",
+			"iconScenarioBonus" : "Map-spells/Darkness/spellBonus",
+			"iconEffect" : "Map-spells/Darkness/spellEffect"
+		},
+		"sounds":
+		{
+			"cast" : "mm6/53raisedead03"
+		},
+		"targetType" : "NO_TARGET",
+		"levels":
+		{
+			"none":
+			{
+				"description" : "{Darkness}\r\n\r\nCreates a 1 tile radius of shroud for non-allied players with hero movement until the end of the day.",
+				"cost" : 25,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "DARKNESS",
+						"val" : 1,
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "{Basic Darkness}\r\n\r\nCreates a 1 tile radius of shroud for non-allied players with hero movement until the end of the day.",
+				"cost" : 20,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "DARKNESS",
+						"val" : 1,
+						"duration" : "ONE_DAY",
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "{Advanced Darkness}\r\n\r\nCreates a 2 tile radius of shroud for non-allied players with hero movement until the end of the day.",
+				"cost" : 20,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "DARKNESS",
+						"val" : 2,
+						"duration" : "ONE_DAY"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "{Expert Darkness}\r\n\r\nCreates a 3 tile radius of shroud for non-allied players with hero movement until the end of the day.",
+				"cost" : 20,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"attacks":
+					{
+						"type" : "DARKNESS",
+						"val" : 3,
+						"duration" : "ONE_DAY"
+					}
+				}
+			}
+		}
+	}
+}

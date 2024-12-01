@@ -1,0 +1,44 @@
+{
+	"name" : "Adventure Map Spells",
+	"description" : "This mod adds 24 adventure map spells.",
+	"author" : "Heroes III Modding Community, Aphra",
+	"contact" : "https://discord.gg/femaQDmS",
+	"version" : "1.0",
+	"modType" : "Spells",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},	
+	"changelog" :
+	{
+		"1.1"   : [ "Renamed mod to Adventure Map Spells", "Arranged spells into submods", "Updated Czech translation" ],
+		"1.0"   : [ "Spell balance and redesign by Aphra" ],
+		"0.4"   : [ "Polish translation by FallainBlack" ],
+		"0.3"   : [ "Czech translation by George King", "Fixed Chinese translation path" ],
+		"0.2"   : [ "Update to vcmi-1.4 format" ],
+		"0.1"   : [ "Initial release" ]
+	},
+	"chinese" : {
+		"name" : "新冒险地图魔法",
+		"description" : "这个模组添加了24种冒险地图魔法。",
+		//"translations" : [
+		//	"translation/adventure-spells/chinese.json"
+		//]
+	},
+	"czech" : {
+		"name" : "Kouzla pro mapu dobrodružství",
+		"description" : "Tato modifikace přidává 24 kouzel pro mapu dobrodružství.",
+		"translations" : [
+			"translation/adventure-spells/czech.json"
+		]
+	},
+	"polish" : {
+		"name" : "Nowe zaklęcia dla mapy przygody",
+		"description" : "Mod zawiera 24 nowe zaklęcia dla mapy przygody.",
+		//"translations" : [
+		//	"translation/adventure-spells/polish.json"
+		//]
+	}
+}

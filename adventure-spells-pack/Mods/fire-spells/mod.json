@@ -1,0 +1,24 @@
+{
+	"name" : "Fire Magic Spells",
+	"description" : "Adds 3 new adventure spells for Fire magic<br/><br/>Demonic Power<br/>Raise Demons<br/>Shattering Strike",
+	"author" : "Heroes III Modding Community, Aphra",
+	"contact" : "https://discord.gg/femaQDmS",
+	"version" : "1.0",
+	"modType" : "Spells",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},	
+	"spells" :
+	[
+		"config/MapSpells/DemonicPower.json",
+		"config/MapSpells/RaiseDemons.json",
+		"config/MapSpells/ShatteringStrike.json"
+	],
+	"czech" : {
+		"name" : "Kouzla magie ohně",
+		"description" : "Tato modifikace přidává 3 kouzla pro magii ohně<br/><br/>Démonická síla<br/>Oživení démonů<br/>Drtivý úder"
+	}
+}

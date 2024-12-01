@@ -1,0 +1,27 @@
+{
+	"name" : "Air Magic Spells",
+	"description" : "Adds 6 new adventure spells for Air magic<br/><br/>Accuracy<br/>Clarity<br/>Darkness<br/>Divine Spirit<br/>Fleet Foot<br/>Power Of Haste",
+	"author" : "Heroes III Modding Community, Aphra",
+	"contact" : "https://discord.gg/femaQDmS",
+	"version" : "1.0",
+	"modType" : "Spells",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},	
+	"spells" :
+	[
+		"config/MapSpells/Accuracy.json",
+		"config/MapSpells/Clarity.json",
+		"config/MapSpells/Darkness.json",
+		"config/MapSpells/DivineSpirit.json",
+		"config/MapSpells/FleetFoot.json",
+		"config/MapSpells/PowerOfHaste.json",
+	],
+	"czech" : {
+		"name" : "Kouzla magie vzduchu",
+		"description" : "Tato modifikace přidává 6 kouzel pro magii vzduchu<br/><br/>Přesnost<br/>Jasnost<br/>Temnota<br/>Božský duch<br/>Rychlé nohy<br/>Moc spěchu"
+	}
+}

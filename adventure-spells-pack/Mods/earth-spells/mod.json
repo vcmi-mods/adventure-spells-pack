@@ -1,0 +1,27 @@
+{
+	"name" : "Earth Magic Spells",
+	"description" : "Adds 6 new adventure spells for Earth magic<br/><br/>Dead Luck<br/>Death Call<br/>Dwarven Luck<br/>Herald Of Death<br/>Hold Ground<br/>Power Of Stone",
+	"author" : "Heroes III Modding Community, Aphra",
+	"contact" : "https://discord.gg/femaQDmS",
+	"version" : "1.0",
+	"modType" : "Spells",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},
+	"spells" :
+	[
+		"config/MapSpells/DeadLuck.json",
+		"config/MapSpells/DeathCall.json",
+		"config/MapSpells/DwarvenLuck.json",
+		"config/MapSpells/HeraldOfDeath.json",
+		"config/MapSpells/HoldGround.json",
+		"config/MapSpells/PowerOfStone.json"
+	],
+	"czech" : {
+		"name" : "Kouzla magie země",
+		"description" : "Tato modifikace přidává 6 kouzel pro magii země<br/><br/>Mrtvé štěstí<br/>Volání smrti<br/>Trpasličí štěstí<br/>Posel smrti<br/>Drž pozici<br/>Moc kamene"
+	}
+}

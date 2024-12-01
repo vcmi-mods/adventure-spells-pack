@@ -1,0 +1,126 @@
+{
+	"heraldOfDeath":
+	{
+		"type" : "adventure", 
+		"name" : "Herald Of Death",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level" : 3,
+		"power" : 10,
+		"counters": {"spell.heraldOfDeath":true },				
+		"defaultGainChance" : 2, 
+		"gainChance":
+		{
+			"necropolis" : 5
+		},
+		"flags" : {"indifferent": true,"positive":true},
+		"graphics":
+		{
+			"iconBook" : "Map-spells/HeraldOfDeath/spellBook",
+			"iconScroll" : "Map-spells/HeraldOfDeath/spellScroll",
+			"iconScenarioBonus" : "Map-spells/HeraldOfDeath/spellBonus",
+			"iconEffect" : "Map-spells/HeraldOfDeath/spellEffect"
+		},
+		"sounds":
+		{
+			"cast" : "mm6/82destroyundead01"
+		},
+		"targetType" : "NO_TARGET",
+		"levels":
+		{
+			"none":
+			{
+				"description" : "{Herald Of Death}\r\n\r\nReduces maximum Morale in combat to +2 until the end of the day.",
+				"cost" : 10,
+				"power" : 10,
+				"aiValue" : 6,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"ability1A" : {
+						"type" : "MORALE",
+						"val" : 2,
+						"valueType" : "INDEPENDENT_MAX"
+					},
+					"ability2A" : {
+						"type" : "MORALE",
+						"val" : -3,
+						"valueType" : "INDEPENDENT_MIN"
+					}
+				}
+			},
+			"basic":
+			{
+				"description" : "{Basic Herald Of Death}\r\n\r\nReduces maximum Morale in combat to +2 until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 6,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"ability1A" : {
+						"type" : "MORALE",
+						"val" : 2,
+						"valueType" : "INDEPENDENT_MAX"
+					},
+					"ability2A" : {
+						"type" : "MORALE",
+						"val" : -3,
+						"valueType" : "INDEPENDENT_MIN"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description" : "{Advanced Herald Of Death}\r\n\r\nReduces maximum Morale in combat to +1 until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 6,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"ability1A" : {
+						"type" : "MORALE",
+						"val" : 1,
+						"valueType" : "INDEPENDENT_MAX"
+					},
+					"ability2A" : {
+						"type" : "MORALE",
+						"val" : -3,
+						"valueType" : "INDEPENDENT_MIN"
+					}
+				}
+			},
+			"expert":
+			{
+				"description" : "{Expert Herald Of Death}\r\n\r\nNegates positive Morale in combat until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				"aiValue" : 6,
+				"range" : "X",
+				"targetModifier":{"smart":false},
+				"effects":
+				{
+					"ability1A" : {
+						"type" : "MORALE",
+						"val" : 0,
+						"valueType" : "INDEPENDENT_MAX"
+					},
+					"ability2A" : {
+						"type" : "MORALE",
+						"val" : -3,
+						"valueType" : "INDEPENDENT_MIN"
+					}
+				}
+			}
+		}
+	}
+}
