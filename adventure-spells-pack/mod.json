@@ -3,7 +3,7 @@
 	"description" : "This mod adds 24 adventure map spells.",
 	"author" : "Heroes III Modding Community, Aphra",
 	"contact" : "https://discord.gg/femaQDmS",
-	"version" : "1.0",
+	"version" : "1.1",
 	"modType" : "Spells",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -24,21 +24,21 @@
 		"name" : "新冒险地图魔法",
 		"description" : "这个模组添加了24种冒险地图魔法。",
 		//"translations" : [
-		//	"translation/adventure-spells/chinese.json"
+		//	"translation/adventure-spells-pack/chinese.json"
 		//]
 	},
 	"czech" : {
 		"name" : "Kouzla pro mapu dobrodružství",
 		"description" : "Tato modifikace přidává 24 kouzel pro mapu dobrodružství.",
 		"translations" : [
-			"translation/adventure-spells/czech.json"
+			"translation/adventure-spells-pack/czech.json"
 		]
 	},
 	"polish" : {
 		"name" : "Nowe zaklęcia dla mapy przygody",
 		"description" : "Mod zawiera 24 nowe zaklęcia dla mapy przygody.",
 		//"translations" : [
-		//	"translation/adventure-spells/polish.json"
+		//	"translation/adventure-spells-pack/polish.json"
 		//]
 	}
 }
