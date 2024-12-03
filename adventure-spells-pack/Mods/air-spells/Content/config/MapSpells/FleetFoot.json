@@ -45,8 +45,10 @@
 				{
 					"attacks":
 					{
-						"type" : "MOVEMENT", "subtype" : "heroMovementLand",
+						"type" : "MOVEMENT",
+						"subtype" : "heroMovementLand",
 						"val" : 200,
+						"valueType" : "ADDITIVE_VALUE",
 						"duration" : "ONE_DAY"
 					}
 				}
@@ -63,8 +65,10 @@
 				{
 					"attacks":
 					{
-						"type" : "MOVEMENT", "subtype" : "heroMovementLand",
+						"type" : "MOVEMENT",
+						"subtype" : "heroMovementLand",
 						"val" : 200,
+						"valueType" : "ADDITIVE_VALUE",
 						"duration" : "ONE_DAY"
 					}
 				}
@@ -81,7 +85,9 @@
 				{
 					"attacks":
 					{
-						"type" : "MOVEMENT", "subtype" : "heroMovementLand",
+						"type" : "MOVEMENT",
+						"subtype" : "heroMovementLand",
+						"valueType" : "ADDITIVE_VALUE",
 						"val" : 300,
 						"duration" : "ONE_DAY"
 					}
@@ -99,7 +105,9 @@
 				{
 					"attacks":
 					{
-						"type" : "MOVEMENT", "subtype" : "heroMovementLand",
+						"type" : "MOVEMENT",
+						"subtype" : "heroMovementLand",
+						"valueType" : "ADDITIVE_VALUE",
 						"val" : 400,
 						"duration" : "ONE_DAY"
 					}
