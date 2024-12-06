@@ -37,8 +37,8 @@
 	"polish" : {
 		"name" : "Nowe zaklęcia dla mapy przygody",
 		"description" : "Mod zawiera 24 nowe zaklęcia dla mapy przygody.",
-		//"translations" : [
-		//	"translation/adventure-spells-pack/polish.json"
-		//]
+		"translations" : [
+			"translation/adventure-spells-pack/polish.json"
+		]
 	}
 }
