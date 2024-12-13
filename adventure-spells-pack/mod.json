@@ -34,6 +34,13 @@
 			"translation/adventure-spells-pack/czech.json"
 		]
 	},
+	"russian" : {
+		"name" : "Новые заклинания для карты приключений",
+		"description" : "Мод включает 24 новых заклинания для карты приключений.",
+		"translations" : [
+			"translation/adventure-spells-pack/russian.json"
+		]
+	},
 	"polish" : {
 		"name" : "Nowe zaklęcia dla mapy przygody",
 		"description" : "Mod zawiera 24 nowe zaklęcia dla mapy przygody.",
