@@ -38,7 +38,7 @@
 				"description" : "{Empathy}\r\n\r\nNullifies the Morale penalty of mixing good and neutral units until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -55,7 +55,7 @@
 				"description" : "{Basic Empathy}\r\n\r\nNullifies the Morale penalty of mixing good and neutral units until the end of the day.",
 				"cost" : 6,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -72,7 +72,7 @@
 				"description" : "{Advanced Empathy}\r\n\r\nNullifies the Morale penalty of mixing good and neutral units until the end of the week.",
 				"cost" : 6,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -89,7 +89,7 @@
 				"description" : "{Expert Empathy}\r\n\r\nNullifies the Morale penalty of mixing good and neutral units until the end of the week.",
 				"cost" : 6,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
