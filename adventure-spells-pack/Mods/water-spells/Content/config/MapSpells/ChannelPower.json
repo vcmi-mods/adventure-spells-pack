@@ -39,7 +39,7 @@
 				"description" : "{Channel Power}\r\n\r\nGain +5% spell damage until the end of the day.",
 				"cost" : 16,
 				"power" : 10,
-//				"aiValue" : 10,
+				"aiValue" : 10,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -57,7 +57,7 @@
 				"description" : "{Basic Channel Power}\r\n\r\nGain +5% spell damage until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 10,
+				"aiValue" : 10,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -75,7 +75,7 @@
 				"description" : "{Advanced Channel Power}\r\n\r\nGain +10% spell damage until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 10,
+				"aiValue" : 10,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -93,7 +93,7 @@
 				"description" : "{Expert Channel Power}\r\n\r\nGain +15% spell damage until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 10,
+				"aiValue" : 10,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
