@@ -38,7 +38,7 @@
 				"description" : "{Basic Clarity}\r\n\r\nAll creatures receive mind spell immunity until the end of the day.",
 				"cost" : 20,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -55,7 +55,7 @@
 				"description" : "{Basic Clarity}\r\n\r\nAll creatures receive mind spell immunity until the end of the day.",
 				"cost" : 15,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -72,7 +72,7 @@
 				"description" : "{Advanced Clarity}\r\n\r\nAll creatures receive mind spell immunity until the end of the day.",
 				"cost" : 15,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -89,7 +89,7 @@
 				"description" : "{Expert Clarity}\r\n\r\nAll creatures receive mind spell immunity until the end of the week.",
 				"cost" : 15,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
