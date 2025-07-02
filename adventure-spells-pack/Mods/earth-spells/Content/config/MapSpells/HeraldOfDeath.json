@@ -46,12 +46,14 @@
 					"ability1A" : {
 						"type" : "MORALE",
 						"val" : 2,
-						"valueType" : "INDEPENDENT_MAX"
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "ONE_DAY"
 					},
 					"ability2A" : {
 						"type" : "MORALE",
 						"val" : -3,
-						"valueType" : "INDEPENDENT_MIN"
+						"valueType" : "INDEPENDENT_MIN",
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -68,12 +70,14 @@
 					"ability1A" : {
 						"type" : "MORALE",
 						"val" : 2,
-						"valueType" : "INDEPENDENT_MAX"
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "ONE_DAY"
 					},
 					"ability2A" : {
 						"type" : "MORALE",
 						"val" : -3,
-						"valueType" : "INDEPENDENT_MIN"
+						"valueType" : "INDEPENDENT_MIN",
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -90,12 +94,14 @@
 					"ability1A" : {
 						"type" : "MORALE",
 						"val" : 1,
-						"valueType" : "INDEPENDENT_MAX"
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "ONE_DAY"
 					},
 					"ability2A" : {
 						"type" : "MORALE",
 						"val" : -3,
-						"valueType" : "INDEPENDENT_MIN"
+						"valueType" : "INDEPENDENT_MIN",
+						"duration" : "ONE_DAY"
 					}
 				}
 			},
@@ -112,12 +118,14 @@
 					"ability1A" : {
 						"type" : "MORALE",
 						"val" : 0,
-						"valueType" : "INDEPENDENT_MAX"
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "ONE_DAY"
 					},
 					"ability2A" : {
 						"type" : "MORALE",
 						"val" : -3,
-						"valueType" : "INDEPENDENT_MIN"
+						"valueType" : "INDEPENDENT_MIN",
+						"duration" : "ONE_DAY"
 					}
 				}
 			}
