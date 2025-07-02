@@ -63,7 +63,7 @@
 				"description" : "{Basic Accuracy}\r\n\r\nAll creatures receive +5% Damage when attacking at range until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 10,
+				"aiValue" : 10,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -83,7 +83,7 @@
 				"description" : "{Advanced Accuracy}\r\n\r\nAll creatures receive +10% Damage when attacking at range until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 10,
+				"aiValue" : 10,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -103,7 +103,7 @@
 				"description" : "{Expert Accuracy}\r\n\r\nAll creatures receive +15% Damage when attacking at range until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 10,
+				"aiValue" : 10,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
