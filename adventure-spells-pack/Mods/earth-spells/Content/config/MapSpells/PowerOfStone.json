@@ -39,7 +39,7 @@
 				"description" : "{Power Of Stone}\r\n\r\nCreatures ignore 5% of enemy Attack until the end of the day.",
 				"cost" : 20,
 				"power" : 10,
-//				"aiValue" : 15,
+				"aiValue" : 15,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -58,7 +58,7 @@
 				"description" : "{Basic Power Of Stone}\r\n\r\nCreatures ignore 5% of enemy Attack until the end of the day.",
 				"cost" : 15,
 				"power" : 10,
-//				"aiValue" : 15,
+				"aiValue" : 15,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -77,7 +77,7 @@
 				"description" : "{Advanced Power Of Stone}\r\n\r\nCreatures ignore 10% of enemy Attack until the end of the day.",
 				"cost" : 15,
 				"power" : 10,
-//				"aiValue" : 15,
+				"aiValue" : 15,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -96,7 +96,7 @@
 				"description" : "{Expert Power Of Stone}\r\n\r\nCreatures ignore 15% of enemy Attack until the end of the day.",
 				"cost" : 15,
 				"power" : 10,
-//				"aiValue" : 15,
+				"aiValue" : 15,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
