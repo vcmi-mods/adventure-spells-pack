@@ -38,7 +38,7 @@
 				"description" : "{Herald Of Death}\r\n\r\nReduces maximum Morale in combat to +2 until the end of the day.",
 				"cost" : 10,
 				"power" : 10,
-//				"aiValue" : 6,
+				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -62,7 +62,7 @@
 				"description" : "{Basic Herald Of Death}\r\n\r\nReduces maximum Morale in combat to +2 until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 6,
+				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -86,7 +86,7 @@
 				"description" : "{Advanced Herald Of Death}\r\n\r\nReduces maximum Morale in combat to +1 until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 6,
+				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -110,7 +110,7 @@
 				"description" : "{Expert Herald Of Death}\r\n\r\nNegates positive Morale in combat until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 6,
+				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
