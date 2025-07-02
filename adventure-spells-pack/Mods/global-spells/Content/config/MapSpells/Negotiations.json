@@ -38,7 +38,7 @@
 				"description" : "{Negotiations}\r\n\r\nReduces the cost of surrendering by -10% until the end of the day.",
 				"cost" : 10,
 				"power" : 10,
-//				"aiValue" : 6,
+				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 	 
@@ -57,7 +57,7 @@
 				"description" : "{Basic Negotiations}\r\n\r\nReduces the cost of surrendering by -10% until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 8,
+				"aiValue" : 8,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -76,7 +76,7 @@
 				"description" : "{Advanced Negotiations}\r\n\r\nReduces the cost of surrendering by -20% until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 8,
+				"aiValue" : 8,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -94,7 +94,7 @@
 				"description" : "{Expert Negotiations}\r\n\r\nReduces the cost of surrendering by -30% until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 8,
+				"aiValue" : 8,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
