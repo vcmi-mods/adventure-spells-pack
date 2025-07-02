@@ -38,7 +38,7 @@
 				"description" : "{Power Of Haste}\r\n\r\nAll creatures receive +1 Speed until the end of the day.",
 				"cost" : 14,
 				"power" : 10,
-//				"aiValue" : 6,
+				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -47,7 +47,7 @@
 					{
 						"type" : "STACKS_SPEED",
 						"val" : 1,
-//						"addInfo" : 100,
+						"addInfo" : 100,
 						"duration" : "ONE_DAY",
 						"propagator" : "HERO"
 					}
@@ -58,7 +58,7 @@
 				"description" : "{Basic Power Of Haste}\r\n\r\nAll creatures receive +1 Speed until the end of the day.",
 				"cost" : 10,
 				"power" : 10,
-//				"aiValue" : 6,
+				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -78,7 +78,7 @@
 				"description" : "{Advanced Power Of Haste}\r\n\r\nAll creatures receive +2 Speed until the end of the day.",
 				"cost" : 10,
 				"power" : 10,
-//				"aiValue" : 6,
+				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -98,7 +98,7 @@
 				"description" : "{Expert Power Of Haste}\r\n\r\nAll creatures receive +3 Speed until the end of the day.",
 				"cost" : 10,
 				"power" : 10,
-//				"aiValue" : 6,
+				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
