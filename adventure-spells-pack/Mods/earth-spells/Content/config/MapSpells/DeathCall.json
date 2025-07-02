@@ -38,7 +38,7 @@
 				"description" : "{Dead Call}\r\n\r\nIncreases Necromancy skill by 10% until the end of the day.",
 				"cost" : 8,
 				"power" : 0,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":true},
 				"effects":
@@ -58,7 +58,7 @@
 				"description" : "{Basic Dead Call}\r\n\r\nIncreases Necromancy skill by 10% until the end of the day.",
 				"cost" : 6,
 				"power" : 0,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":true},
 				"effects":
@@ -79,7 +79,7 @@
 	 
 				"cost" : 6,
 				"power" : 0,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":true},
 				"effects":
@@ -99,7 +99,7 @@
 				"description" : "{Expert Dead Call}\r\n\r\nIncreases Necromancy skill by 20% until the end of the day.",
 				"cost" : 6,
 				"power" : 0,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":true},
 				"effects":
