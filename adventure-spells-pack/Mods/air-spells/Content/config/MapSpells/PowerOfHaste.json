@@ -47,7 +47,7 @@
 					{
 						"type" : "STACKS_SPEED",
 						"val" : 1,
-						"addInfo" : 100,
+//						"addInfo" : 100,
 						"duration" : "ONE_DAY",
 						"propagator" : "HERO"
 					}
