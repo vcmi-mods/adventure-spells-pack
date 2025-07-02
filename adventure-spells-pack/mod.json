@@ -9,12 +9,11 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"compatibility" :
 	{
-		"min" : "1.7.0"
+		"min" : "1.4.0"
 	},	
 	"changelog" :
 	{
-    "1.4"   : [ "Buf fixes" ],
-		"1.3"   : [ "Remove deprecated aiValue entries" ],
+    "1.3"   : [ "Bug fixes" ],
 		"1.2"   : [ "Fleet Foot gives bonus movement until next battle, and doesn't stack" ],
 		"1.1"   : [ "Renamed mod to Adventure Map Spells", "Arranged spells into submods", "Updated Czech translation" ],
 		"1.0"   : [ "Spell balance and redesign by Aphra" ],
