@@ -39,7 +39,7 @@
 				"description" : "{Arcane Protection}\r\n\r\nCreatures receive +5% spell damage reduction until the end of the day.",
 				"cost" : 16,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -59,7 +59,7 @@
 				"description" : "{Basic Arcane Protection}\r\n\r\nCreatures receive +5% spell damage reduction until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -79,7 +79,7 @@
 				"description" : "{Advanced Arcane Protection}\r\n\r\nCreatures receive +10% spell damage reduction until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -99,7 +99,7 @@
 				"description" : "{Expert Arcane Protection}\r\n\r\nCreatures receive +15% spell damage reduction until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
