@@ -43,7 +43,7 @@
 				"description" : "{Accuracy}\r\n\r\nAll creatures receive +5% Damage when attacking at range until the end of the day.",
 				"cost" : 18,
 				"power" : 10,
-//				"aiValue" : 10,
+				"aiValue" : 10,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
