@@ -38,7 +38,7 @@
 				"description" : "{Demonic Power}\r\n\r\nCreatures receive +5% Damage until the end of the day.",
 				"cost" : 18,
 				"power" : 10,
-//				"aiValue" : 10,
+				"aiValue" : 10,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -58,7 +58,7 @@
 				"description" : "{Basic Demonic Power}\r\n\r\nCreatures receive +5% Damage until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 10,
+				"aiValue" : 10,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -78,7 +78,7 @@
 				"description" : "{Advanced Demonic Power}\r\n\r\nCreatures receive +10% Damage until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 10,
+				"aiValue" : 10,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -98,7 +98,7 @@
 				"description" : "{Expert Demonic Power}\r\n\r\nCreatures receive +15% Damage until the end of the day.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 10,
+				"aiValue" : 10,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
