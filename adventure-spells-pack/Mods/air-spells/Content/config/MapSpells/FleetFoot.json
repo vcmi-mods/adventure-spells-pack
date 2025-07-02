@@ -38,7 +38,7 @@
 				"description" : "{Fleet Foot}\r\n\r\nGain +200 max movement points until next battle.",
 				"cost" : 16,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -59,7 +59,7 @@
 				"description" : "{Basic Fleet Foot}\r\n\r\nGain +200 max movement points until next battle.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -80,7 +80,7 @@
 				"description" : "{Advanced Fleet Foot}\r\n\r\nGain +300 max movement points until next battle.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -101,7 +101,7 @@
 				"description" : "{Expert Fleet Foot}\r\n\r\nGain +400 max movement points until next battle.",
 				"cost" : 12,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
