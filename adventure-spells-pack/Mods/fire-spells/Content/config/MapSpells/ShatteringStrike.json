@@ -39,7 +39,7 @@
 				"description" : "{Shattering Strike}\r\n\r\nCreatures' attacks ignore 5% of enemy Defense until the end of the day.",
 				"cost" : 20,
 				"power" : 10,
-//				"aiValue" : 15,
+				"aiValue" : 15,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -57,7 +57,7 @@
 				"description" : "{Basic Shattering Strike}\r\n\r\nCreatures' attacks ignore 5% of enemy Defense until the end of the day.",
 				"cost" : 15,
 				"power" : 10,
-//				"aiValue" : 15,
+				"aiValue" : 15,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -75,7 +75,7 @@
 				"description" : "{Advanced Shattering Strike}\r\n\r\nCreatures' attacks ignore 10% of enemy Defense until the end of the day.",
 				"cost" : 15,
 				"power" : 10,
-//				"aiValue" : 15,
+				"aiValue" : 15,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -93,7 +93,7 @@
 				"description" : "{Expert Shattering Strike}\r\n\r\nCreatures' attacks ignore 15% of enemy Defense until the end of the day.",
 				"cost" : 15,
 				"power" : 10,
-//				"aiValue" : 15,
+				"aiValue" : 15,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
