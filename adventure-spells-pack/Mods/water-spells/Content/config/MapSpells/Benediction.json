@@ -38,7 +38,7 @@
 				"description" : "{Benediction}\r\n\r\nCast all spells at Basic proficiency until the end of the day.",
 				"cost" : 25,
 				"power" : 10,
-//				"aiValue" : 15,
+				"aiValue" : 15,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -57,7 +57,7 @@
 				"description" : "{Basic Benediction}\r\n\r\nCast all spells at Basic proficiency until the end of the day.",
 				"cost" : 20,
 				"power" : 10,
-//				"aiValue" : 15,
+				"aiValue" : 15,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -76,7 +76,7 @@
 				"description" : "{Advanced Benediction}\r\n\r\nCast all spells at Advanced proficiency until the end of the day.",
 				"cost" : 25,
 				"power" : 10,
-//				"aiValue" : 15,
+				"aiValue" : 15,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -95,7 +95,7 @@
 				"description" : "{Expert Benediction}\r\n\r\nCast all spells at Expert proficiency until the end of the day.",
 				"cost" : 35,
 				"power" : 10,
-//				"aiValue" : 15,
+				"aiValue" : 15,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
