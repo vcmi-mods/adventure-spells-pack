@@ -38,7 +38,7 @@
 				"description" : "{Whirlpool Protection}\r\n\r\nProtects the army from whirlpools until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -55,7 +55,7 @@
 				"description" : "{Basic Whirlpool Protection}\r\n\r\nProtects the army from whirlpools until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -72,7 +72,7 @@
 				"description" : "{Advanced Whirlpool Protection}\r\n\r\nProtects the army from whirlpools until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -89,7 +89,7 @@
 				"description" : "{Expert Whirlpool Protection}\r\n\r\nProtects the army from whirlpools until the end of the week.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
