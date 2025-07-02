@@ -38,7 +38,7 @@
 				"description" : "{Seafaring}\r\n\r\nRemoves the boarding and unboarding penalties of ships until the end of the day.",
 				"cost" : 10,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -55,7 +55,7 @@
 				"description" : "{Basic Seafaring}\r\n\r\nRemoves the boarding and unboarding penalties of ships until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -72,7 +72,7 @@
 				"description" : "{Advanced Seafaring}\r\n\r\nRemoves the boarding and unboarding penalties of ships until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -89,7 +89,7 @@
 				"description" : "{Expert Seafaring}\r\n\r\nRemoves the boarding and unboarding penalties of ships until the end of the week.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 5,
+				"aiValue" : 5,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
