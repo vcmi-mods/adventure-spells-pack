@@ -1,6 +1,6 @@
 {
 	"name" : "Whirlpool Protection",
-	"description" : "Whirlpool Protection",
+	"description" : "Protects the army from whirlpools until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/whirlpoolProtection"
-	]
+	],
+	"czech" : {
+		"name" : "Ochrana proti vírům",
+		"description" : "Chrání armádu před víry až do konce dne."
+	}
 }

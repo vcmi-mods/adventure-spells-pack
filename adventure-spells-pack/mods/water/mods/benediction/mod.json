@@ -1,6 +1,6 @@
 {
 	"name" : "Benediction",
-	"description" : "Benediction",
+	"description" : "Cast all spells at Basic proficiency until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/benediction"
-	]
+	],
+	"czech" : {
+		"name" : "Požehnání magie",
+		"description" : "Umožňuje sesílat kouzla na úrovni Základní až do konce dne."
+	}
 }

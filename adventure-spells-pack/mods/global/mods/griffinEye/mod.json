@@ -1,6 +1,6 @@
 {
 	"name" : "Griffin Eye",
-	"description" : "Griffin Eye",
+	"description" : "See 1 square further into the shroud until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/griffinEye"
-	]
+	],
+	"czech" : {
+		"name" : "Gryfí oko",
+		"description" : "Umožňuje vidět o 1 pole dále do mlhy až do konce dne."
+	}
 }

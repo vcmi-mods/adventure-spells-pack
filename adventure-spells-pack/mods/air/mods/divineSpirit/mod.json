@@ -1,6 +1,6 @@
 {
 	"name" : "Divine Spirit",
-	"description" : "Divine Spirit",
+	"description" : "All creatures receive +1 Morale until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/divineSpirit"
-	]
+	],
+	"czech" : {
+		"name" : "Božský duch",
+		"description" : "Všem jednotkám zvyšuje morálku o 1 až do konce dne."
+	}
 }

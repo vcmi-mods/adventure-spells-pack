@@ -1,6 +1,6 @@
 {
 	"name" : "Arcane Protection",
-	"description" : "Arcane Protection",
+	"description" : "Creatures receive +5% spell damage reduction until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/arcaneProtection"
-	]
+	],
+	"czech" : {
+		"name" : "Ochrana před magií",
+		"description" : "Jednotky mají o 5% nižší zranění z kouzel až do konce dne."
+	}
 }

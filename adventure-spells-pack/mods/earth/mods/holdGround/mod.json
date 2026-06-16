@@ -1,6 +1,6 @@
 {
 	"name" : "Hold Ground",
-	"description" : "Hold Ground",
+	"description" : "Creatures receive +3 Defense when defending in combat until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/holdGround"
-	]
+	],
+	"czech" : {
+		"name" : "Držení pozice",
+		"description" : "Jednotky získají +3 k obraně při obraně v boji až do konce dne."
+	}
 }

@@ -1,6 +1,6 @@
 {
 	"name" : "Power of Haste",
-	"description" : "Power of Haste",
+	"description" : "All creatures receive +1 Speed until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/powerOfHaste"
-	]
+	],
+	"czech" : {
+		"name" : "Moc spěchu",
+		"description" : "Všem jednotkám zvyšuje rychlost o 1 až do konce dne."
+	}
 }

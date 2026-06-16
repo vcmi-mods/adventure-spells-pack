@@ -1,6 +1,6 @@
 {
 	"name" : "Clarity",
-	"description" : "Clarity",
+	"description" : "All creatures receive mind spell immunity until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/clarity"
-	]
+	],
+	"czech" : {
+		"name" : "Jasnost",
+		"description" : "Všem jednotkám poskytuje imunitu vůči kouzlům ovlivňujícím mysl až do konce dne."
+	}
 }
