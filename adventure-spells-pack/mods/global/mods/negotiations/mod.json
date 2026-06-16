@@ -1,6 +1,6 @@
 {
 	"name" : "Negotiations",
-	"description" : "Negotiations",
+	"description" : "Reduces the cost of surrendering by 10% until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/negotiations"
-	]
+	],
+	"czech" : {
+		"name" : "Vyjednávání",
+		"description" : "Snižuje cenu kapitulace o 10% až do konce dne."
+	}
 }

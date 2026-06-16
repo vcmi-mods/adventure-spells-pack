@@ -1,6 +1,6 @@
 {
 	"name" : "Fleet Foot",
-	"description" : "Fleet Foot",
+	"description" : "Gain +200 max movement points in next day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/fleetFoot"
-	]
+	],
+	"czech" : {
+		"name" : "Rychlé nohy",
+		"description" : "Získáte +200 maximálních pohybových bodů do další bitvy."
+	}
 }

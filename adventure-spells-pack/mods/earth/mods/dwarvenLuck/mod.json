@@ -1,6 +1,6 @@
 {
 	"name" : "Dwarven Luck",
-	"description" : "Dwarven Luck",
+	"description" : "All creatures receive +1 Luck until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/dwarvenLuck"
-	]
+	],
+	"czech" : {
+		"name" : "Trpasličí štěstí",
+		"description" : "Všem jednotkám zvyšuje štěstí o 1 až do konce dne."
+	}
 }

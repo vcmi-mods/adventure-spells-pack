@@ -1,6 +1,6 @@
 {
 	"name" : "Demonic Power",
-	"description" : "Demonic Power",
+	"description" : "Creatures receive +5% Damage until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/demonicPower"
-	]
+	],
+	"czech" : {
+		"name" : "Démonická síla",
+		"description" : "Jednotky získají +5% k poškození až do konce dne."
+	}
 }

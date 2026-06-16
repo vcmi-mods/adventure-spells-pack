@@ -1,6 +1,6 @@
 {
 	"name" : "Power of Stone",
-	"description" : "Power of Stone",
+	"description" : "Creatures ignore 5% of enemy Attack until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/powerOfStone"
-	]
+	],
+	"czech" : {
+		"name" : "Moc kamene",
+		"description" : "Jednotky ignorují 5% útoku nepřítele až do konce dne."
+	}
 }

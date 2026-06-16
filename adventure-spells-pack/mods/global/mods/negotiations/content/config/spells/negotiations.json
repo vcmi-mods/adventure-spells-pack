@@ -33,7 +33,7 @@
 		"targetType" : "NO_TARGET",
 		"levels" : {
 			"none" : {
-				"description" : "{Negotiations}\r\n\r\nReduces the cost of surrendering by -10% until the end of the day.",
+				"description" : "{Negotiations}\r\n\r\nReduces the cost of surrendering by 10% until the end of the day.",
 				"cost" : 10,
 				"power" : 10,
 				//				"aiValue" : 6,
@@ -55,7 +55,7 @@
 				}
 			},
 			"basic" : {
-				"description" : "{Basic Negotiations}\r\n\r\nReduces the cost of surrendering by -10% until the end of the day.",
+				"description" : "{Basic Negotiations}\r\n\r\nReduces the cost of surrendering by 10% until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
 				//				"aiValue" : 8,
@@ -76,7 +76,7 @@
 				}
 			},
 			"advanced" : {
-				"description" : "{Advanced Negotiations}\r\n\r\nReduces the cost of surrendering by -20% until the end of the day.",
+				"description" : "{Advanced Negotiations}\r\n\r\nReduces the cost of surrendering by 20% until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
 				//				"aiValue" : 8,
@@ -97,7 +97,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Negotiations}\r\n\r\nReduces the cost of surrendering by -30% until the end of the day.",
+				"description" : "{Expert Negotiations}\r\n\r\nReduces the cost of surrendering by 30% until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
 				//				"aiValue" : 8,

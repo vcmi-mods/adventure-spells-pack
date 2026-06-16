@@ -1,6 +1,6 @@
 {
 	"name" : "Empathy",
-	"description" : "Empathy",
+	"description" : "Nullifies the Morale penalty of mixing good and neutral units until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/empathy"
-	]
+	],
+	"czech" : {
+		"name" : "Empatie",
+		"description" : "Ruší postih na morálku za míchání dobrých a neutrálních jednotek až do konce dne."
+	}
 }

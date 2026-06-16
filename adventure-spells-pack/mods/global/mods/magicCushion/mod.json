@@ -1,6 +1,6 @@
 {
 	"name" : "Magic Cushion",
-	"description" : "Magic Cushion",
+	"description" : "Creatures receive +5% magical resistance until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/magicCushion"
-	]
+	],
+	"czech" : {
+		"name" : "Magická odolnost",
+		"description" : "Jednotky získají +5% odolnosti vůči magii až do konce dne."
+	}
 }

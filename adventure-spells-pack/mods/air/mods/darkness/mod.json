@@ -1,6 +1,6 @@
 {
 	"name" : "Darkness",
-	"description" : "Darkness",
+	"description" : "Creates a 1 tile radius of shroud for non-allied players with hero movement until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/darkness"
-	]
+	],
+	"czech" : {
+		"name" : "Temnota",
+		"description" : "Vytvoří šero o poloměru 1 políčka pro nespojenecké hráče během pohybu hrdiny až do konce dne."
+	}
 }

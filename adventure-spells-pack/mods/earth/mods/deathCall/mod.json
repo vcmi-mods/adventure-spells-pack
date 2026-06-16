@@ -1,6 +1,6 @@
 {
 	"name" : "Death Call",
-	"description" : "Death Call",
+	"description" : "Increases Necromancy skill by 10% until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/deathCall"
-	]
+	],
+	"czech" : {
+		"name" : "Volání smrti",
+		"description" : "Zvyšuje schopnost Nekromancie o 10% až do konce dne."
+	}
 }

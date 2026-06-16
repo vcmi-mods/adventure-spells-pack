@@ -1,6 +1,6 @@
 {
 	"name" : "Raise Demons",
-	"description" : "Raise Demons",
+	"description" : "Necromancy raises Demons until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/raiseDemons"
-	]
+	],
+	"czech" : {
+		"name" : "Oživení démonů",
+		"description" : "Nekromancie oživuje démony až do konce dne."
+	}
 }

@@ -1,6 +1,6 @@
 {
 	"name" : "Shattering Strike",
-	"description" : "Shattering Strike",
+	"description" : "Creatures' attacks ignore 5% of enemy Defense until the end of the day.",
 	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -14,5 +14,9 @@
 	"keepDisabled" : false,
 	"spells" : [
 		"config/spells/shatteringStrike"
-	]
+	],
+	"czech" : {
+		"name" : "Drtivý úder",
+		"description" : "Útoky jednotek ignorují 5% obrany nepřátel až do konce dne."
+	}
 }
