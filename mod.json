@@ -53,28 +53,28 @@
 		"name" : "新冒险地图魔法",
 		"description" : "这个模组添加了24种冒险地图魔法。",
 		"translations" : [
-			"translation/adventure-spells-pack/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"czech" : {
 		"name" : "Kouzla pro mapu dobrodružství",
 		"description" : "<p>Tato modifikace přidává 24 kouzel pro mapu dobrodružství.</p><h2>Kouzla magie vzduchu</h2><ul><li><strong>Přesnost</strong>: Všem jednotkám zvyšuje poškození při útocích na dálku o 5/10/15% až do konce dne.</li><li><strong>Jasnost</strong>: Všem jednotkám poskytuje imunitu vůči kouzlům ovlivňujícím mysl až do konce dne/dne/týdne.</li><li><strong>Temnota</strong>: Vytvoří šero o poloměru 1/2/3 políček pro nespojenecké hráče během pohybu hrdiny až do konce dne.</li><li><strong>Božský duch</strong>: Všem jednotkám zvyšuje morálku o 1/2/3 až do konce dne.</li><li><strong>Rychlé nohy</strong>: Získáte +200/300/400 maximálních pohybových bodů do další bitvy.</li><li><strong>Moc spěchu</strong>: Všem jednotkám zvyšuje rychlost o 1/2/3 až do konce dne.</li></ul><h2>Kouzla magie země</h2><ul><li><strong>Mrtvé štěstí</strong>: Snižuje maximální štěstí v boji na +2/+1 nebo ruší pozitivní štěstí až do konce dne.</li><li><strong>Volání smrti</strong>: Zvyšuje schopnost Nekromancie o 10/15/20% až do konce dne.</li><li><strong>Trpasličí štěstí</strong>: Všem jednotkám zvyšuje štěstí o 1/2/3 až do konce dne.</li><li><strong>Posel smrti</strong>: Snižuje maximální morálku v boji na +2/+1 nebo ruší pozitivní morálku až do konce dne.</li><li><strong>Držení pozice</strong>: Jednotky získají +3/6/9 k obraně při obraně v boji až do konce dne.</li><li><strong>Moc kamene</strong>: Jednotky ignorují 5/10/15% útoku nepřítele až do konce dne.</li></ul><h2>Kouzla magie ohně</h2><ul><li><strong>Démonická síla</strong>: Jednotky získají +5/10/15% k poškození až do konce dne.</li><li><strong>Oživení démonů</strong>: Nekromancie oživuje démony/rohaté démony/rohaté démony až do konce dne/dne/týdne.</li><li><strong>Drtivý úder</strong>: Útoky jednotek ignorují 5/10/15% obrany nepřátel až do konce dne.</li></ul><h2>Kouzla magie vody</h2><ul><li><strong>Požehnání magie</strong>: Umožňuje sesílat kouzla na úrovni Základní/Lepší/Expert až do konce dne.</li><li><strong>Proud síly</strong>: Získáváte +5/10/15% poškození z kouzel až do konce dne.</li><li><strong>Mořeplavec</strong>: Odstraňuje penalizaci při nalodění a vylodění až do konce dne/dne/týdne.</li><li><strong>Ochrana proti vírům</strong>: Chrání armádu před víry až do konce dne/dne/týdne.</li></ul><h2>Globální kouzla</h2><ul><li><strong>Ochrana před magií</strong>: Jednotky mají o 5/10/15% nižší zranění z kouzel až do konce dne.</li><li><strong>Empatie</strong>: Ruší postih na morálku za míchání dobrých a neutrálních jednotek až do konce dne/týdne/týdne.</li><li><strong>Gryfí oko</strong>: Umožňuje vidět o 1/2/3 pole dále do mlhy až do konce dne.</li><li><strong>Magická odolnost</strong>: Jednotky získají +5/10/15% odolnosti vůči magii až do konce dne.</li><li><strong>Vyjednávání</strong>: Snižuje cenu kapitulace o 10/20/30% až do konce dne.</li></ul>",
 		"translations" : [
-			"translation/adventure-spells-pack/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"russian" : {
 		"name" : "Новые заклинания для карты приключений",
 		"description" : "Мод включает 24 новых заклинания для карты приключений.",
 		"translations" : [
-			"translation/adventure-spells-pack/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"polish" : {
 		"name" : "Nowe zaklęcia dla mapy przygody",
 		"description" : "Mod zawiera 24 nowe zaklęcia dla mapy przygody.",
 		"translations" : [
-			"translation/adventure-spells-pack/polish.json"
+			"translation/polish.json"
 		]
 	}
 }
