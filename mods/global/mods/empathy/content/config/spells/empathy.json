@@ -45,8 +45,14 @@
 					"type" : "generic",
 					"castsPerDay" : 1,
 					"bonuses" : {
-						"attacks" : {
-							"type" : "NONEVIL_ALIGNMENT_MIX",
+						"alignmentMixGood" : {
+							"type" : "ALIGNMENT_MIX",
+							"subtype" : "alignmentGood",
+							"duration" : "ONE_DAY"
+						},
+						"alignmentMixNeutral" : {
+							"type" : "ALIGNMENT_MIX",
+							"subtype" : "alignmentNeutral",
 							"duration" : "ONE_DAY"
 						}
 					}
@@ -65,8 +71,14 @@
 					"type" : "generic",
 					"castsPerDay" : 1,
 					"bonuses" : {
-						"attacks" : {
-							"type" : "NONEVIL_ALIGNMENT_MIX",
+						"alignmentMixGood" : {
+							"type" : "ALIGNMENT_MIX",
+							"subtype" : "alignmentGood",
+							"duration" : "ONE_DAY"
+						},
+						"alignmentMixNeutral" : {
+							"type" : "ALIGNMENT_MIX",
+							"subtype" : "alignmentNeutral",
 							"duration" : "ONE_DAY"
 						}
 					}
@@ -85,8 +97,14 @@
 					"type" : "generic",
 					"castsPerDay" : 1,
 					"bonuses" : {
-						"attacks" : {
-							"type" : "NONEVIL_ALIGNMENT_MIX",
+						"alignmentMixGood" : {
+							"type" : "ALIGNMENT_MIX",
+							"subtype" : "alignmentGood",
+							"duration" : "ONE_WEEK"
+						},
+						"alignmentMixNeutral" : {
+							"type" : "ALIGNMENT_MIX",
+							"subtype" : "alignmentNeutral",
 							"duration" : "ONE_WEEK"
 						}
 					}
@@ -105,8 +123,14 @@
 					"type" : "generic",
 					"castsPerDay" : 1,
 					"bonuses" : {
-						"attacks" : {
-							"type" : "NONEVIL_ALIGNMENT_MIX",
+						"alignmentMixGood" : {
+							"type" : "ALIGNMENT_MIX",
+							"subtype" : "alignmentGood",
+							"duration" : "ONE_WEEK"
+						},
+						"alignmentMixNeutral" : {
+							"type" : "ALIGNMENT_MIX",
+							"subtype" : "alignmentNeutral",
 							"duration" : "ONE_WEEK"
 						}
 					}
